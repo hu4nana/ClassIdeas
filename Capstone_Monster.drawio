@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-02T15:01:37.751Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Whale/3.22.205.18 Safari/537.36" etag="Wfrx1Xa6lUtoXsGkyxkA" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-05T04:12:58.214Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Whale/3.22.205.18 Safari/537.36" etag="lYPCORRRHD7sluLkI2Xk" version="21.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1784" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2811" dy="1807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -67,8 +67,58 @@
             <mxPoint x="310" y="271" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="afMq5O5dZoRreQECWr_G-0" value="&lt;b&gt;적 ( Enemy )&lt;/b&gt;&lt;br&gt;&lt;u style=&quot;&quot;&gt;--(플레이어를 공격하는 격파가능한 오브젝트로 정의)--&lt;/u&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;히트 피드백 ( 강인도가 없을 때, 타격시 움찔, 넉백_보류 )&lt;br&gt;시작 시, curHealth = maxHealth&lt;br&gt;curHP&amp;lt;=0일 때, Die_ani의 재생이 종료됐을 때 서서히 사라짐&lt;br&gt;&lt;br&gt;적의 스탯은 Scriptable로 관리할지, 내부 구조체로 관리할지 고민 중&lt;br&gt;&lt;br&gt;Enemy = 최상위 클래스&lt;br&gt;히트 피드백, 체력, 죽었을 시, 패턴선택&amp;nbsp;&lt;br&gt;그 외에 대부분의 경우에 사용되는 메서드 보유" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="afMq5O5dZoRreQECWr_G-0" value="&lt;b&gt;적 ( Enemy )&lt;/b&gt;&lt;br&gt;&lt;u style=&quot;&quot;&gt;--(플레이어를 공격하는 격파가능한 오브젝트로 정의)--&lt;/u&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;히트 피드백 ( 강인도가 없을 때, 타격시 움찔, 넉백_보류 )&lt;br&gt;시작 시, curHealth = maxHealth&lt;br&gt;curHP&amp;lt;=0일 때, Die_ani의 재생이 종료됐을 때 서서히 사라짐&lt;br&gt;&lt;br&gt;적의 스탯은 Scriptable로 관리할지, 내부 구조체로 관리할지 고민 중&lt;br&gt;&lt;br&gt;Enemy = 최상위 클래스&lt;br&gt;히트 피드백, 체력, 죽었을 시, 패턴선택&amp;nbsp;&lt;br&gt;그 외에 대부분의 경우에 사용되는 메서드 보유" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-120" y="-160" width="390" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-1" value="Core" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-414" width="160" height="346" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-2" value="CoreType" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="moi85sSh6f1_xOtFpsTU-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-3" value="maxHealth" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="moi85sSh6f1_xOtFpsTU-1">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-4" value="curHealth" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="moi85sSh6f1_xOtFpsTU-1">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-10" value="Break" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="moi85sSh6f1_xOtFpsTU-1">
+          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-5" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="moi85sSh6f1_xOtFpsTU-1">
+          <mxGeometry y="130" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-6" value="+GetCoreType()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="moi85sSh6f1_xOtFpsTU-1">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-7" value="+SetCoreType(int value)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="moi85sSh6f1_xOtFpsTU-1">
+          <mxGeometry y="164" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-8" value="+GetMaxHealth()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="moi85sSh6f1_xOtFpsTU-1">
+          <mxGeometry y="190" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-9" value="+SetMaxHealth(int value)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="moi85sSh6f1_xOtFpsTU-1">
+          <mxGeometry y="216" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-14" value="+GetCurHealth()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="moi85sSh6f1_xOtFpsTU-1">
+          <mxGeometry y="242" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-15" value="+SetCurHealth()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="moi85sSh6f1_xOtFpsTU-1">
+          <mxGeometry y="268" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-16" value="+GetBreak()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="moi85sSh6f1_xOtFpsTU-1">
+          <mxGeometry y="294" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-17" value="+SetBreak()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="moi85sSh6f1_xOtFpsTU-1">
+          <mxGeometry y="320" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-12" value="&lt;b&gt;코어 ( Core )&lt;/b&gt;&lt;br&gt;&lt;u style=&quot;&quot;&gt;--(특정 적, 혹은 패턴에 등장하는 파괴가능한 오브젝트)--&lt;/u&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;파괴시 해당적이 가지고있는 Break최대치의 일정수치를 깎는다.&lt;br&gt;이 현상을 CoreBreak라고 한다.&lt;br&gt;&lt;br&gt;&lt;br&gt;한 번 파괴된 코어는 Break상태가 종료되기 전까지 복구되지않는다." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-900" y="108" width="390" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="moi85sSh6f1_xOtFpsTU-13" value="&lt;b&gt;브레이크 ( Break )&lt;/b&gt;&lt;br&gt;&lt;u style=&quot;&quot;&gt;--(적이 일정 피해를 받을 시 무력화(무방비)가 되는 것)--&lt;/u&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Break 게이지가 존재하며 0에서 시자한다.&lt;br&gt;피격 시에 일정량 증가하며, 최대치에 달했을 때 무방비 상태가 된다.&lt;br&gt;움직이지 않으며, 공격도 불가능하다.&lt;br&gt;일정 시간이 지난 후 종료된다.&lt;br&gt;&lt;br&gt;Core를 파괴했을 땐 CoreBeak가 발생하며&lt;br&gt;Break게이지의 최대치를 일정량 깎는다.&lt;br&gt;&lt;br&gt;깍인 최대치는 Break상태 종료시 복구된다." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-890" y="-100" width="390" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
