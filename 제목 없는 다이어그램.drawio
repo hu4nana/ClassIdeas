@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-10T06:17:51.390Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Whale/3.23.214.10 Safari/537.36" etag="vs5V4-HL741TBO4iTk97" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-10T06:33:30.123Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Whale/3.23.214.10 Safari/537.36" etag="NDTWP-dDvfqG97Cx4A2I" version="22.1.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3869" dy="1934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -449,7 +449,7 @@
         <mxCell id="x3tEPI84xaoqMg0zwYPI-0" value="Mode의 타입을.....&lt;br&gt;보스의 타입과 공유했음좋겠는데;;;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-1695" y="735" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fA5qDaZOXnuFXkHZi7ny-0" value="&lt;b&gt;모드매니저 ( ModeManager )&lt;/b&gt;&lt;br&gt;&lt;u style=&quot;&quot;&gt;--(플레이어의 정보와 인게임의 진행상황등을 저장하여)--&lt;/u&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;게임에 영향을 주는&lt;br&gt;Player의 정보를 받아와 특정 행동이 가능한지판단함" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="fA5qDaZOXnuFXkHZi7ny-0" value="&lt;b&gt;모드매니저 ( ModeManager )&lt;/b&gt;&lt;br&gt;&lt;u style=&quot;&quot;&gt;--(플레이어의 정보와 인게임의 진행상황등을 저장하여)--&lt;/u&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;게임에 영향을 주는&lt;br&gt;Player의 정보를 받아와 특정 행동이 가능한지판단함" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-1720" y="-70" width="390" height="200" as="geometry" />
         </mxCell>
       </root>
