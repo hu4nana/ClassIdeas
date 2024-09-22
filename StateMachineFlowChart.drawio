@@ -291,7 +291,7 @@
           <mxGeometry x="-2400" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="unBHX9BdZUg9Jr-j5pLU-31" value="Player의 정보를 담고있다&lt;br&gt;Controller는 Player의 정보를 토대로&lt;br&gt;Player를 한번 생성하고&lt;br&gt;Controller의 데이터를&lt;br&gt;Player에 저장한다." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2568.5" y="605" width="428.5" height="30" as="geometry" />
+          <mxGeometry x="-2554.25" y="605" width="428.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
