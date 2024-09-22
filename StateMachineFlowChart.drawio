@@ -287,6 +287,12 @@
         <mxCell id="unBHX9BdZUg9Jr-j5pLU-29" value="BaseState를 상속받아 State들을 제작한 후&lt;br&gt;SateHandler라는 함수로 현재 상태에 따른 함수 조작&lt;br&gt;그럼...Controller스크립트가 BaseState를 참조하나..?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="unBHX9BdZUg9Jr-j5pLU-23">
           <mxGeometry x="20" y="460" width="428.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="unBHX9BdZUg9Jr-j5pLU-32" value="PlayerStates함수가 BaseState를 상속받고 각 스테이트들을 다 만들어 버리자" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="unBHX9BdZUg9Jr-j5pLU-23">
+          <mxGeometry x="-40" y="620" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="unBHX9BdZUg9Jr-j5pLU-33" value="PlayerStates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="unBHX9BdZUg9Jr-j5pLU-23">
+          <mxGeometry x="509" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="unBHX9BdZUg9Jr-j5pLU-30" value="PlayerData" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2400" y="500" width="120" height="60" as="geometry" />
         </mxCell>
