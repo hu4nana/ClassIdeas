@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Whale/3.28.266.14 Safari/537.36" version="24.8.3">
   <diagram name="페이지-1" id="N-UCn5mrVNeuuxENs6eP">
-    <mxGraphModel dx="3011" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5272" dy="1682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,11 +31,19 @@
         <mxCell id="M0cPe0HIfnCteNu44rrV-15" value="구현위주" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="90" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-17" target="M0cPe0HIfnCteNu44rrV-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="M0cPe0HIfnCteNu44rrV-17" value="카드분배" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="-690" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-18" target="M0cPe0HIfnCteNu44rrV-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-630" y="525" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="M0cPe0HIfnCteNu44rrV-18" value="선택한 카드 공개" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="-690" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M0cPe0HIfnCteNu44rrV-19" value="공개된 카드 중&lt;div&gt;가장 높은 숫자를 가진 플레이어가 행동&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-130" y="240" width="120" height="60" as="geometry" />
@@ -43,62 +51,142 @@
         <mxCell id="M0cPe0HIfnCteNu44rrV-20" value="해당 플레이어 기준으로 시계방향으로 행동" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-35" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M0cPe0HIfnCteNu44rrV-47" value="플레이어기준 왼쪽부터 선택" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="M0cPe0HIfnCteNu44rrV-50" value="시간 내에&lt;br&gt;카드를 선택했는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-760" y="300" width="260" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="M0cPe0HIfnCteNu44rrV-84" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-57" target="M0cPe0HIfnCteNu44rrV-83">
+        <mxCell id="M0cPe0HIfnCteNu44rrV-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-47" target="M0cPe0HIfnCteNu44rrV-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M0cPe0HIfnCteNu44rrV-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-57" target="M0cPe0HIfnCteNu44rrV-61">
+        <mxCell id="M0cPe0HIfnCteNu44rrV-47" value="플레이어기준 왼쪽부터 선택" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-50" target="M0cPe0HIfnCteNu44rrV-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-50" target="M0cPe0HIfnCteNu44rrV-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-50" value="시간 내에&lt;br&gt;카드를 선택했는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="280" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-57" target="M0cPe0HIfnCteNu44rrV-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-57" target="M0cPe0HIfnCteNu44rrV-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M0cPe0HIfnCteNu44rrV-57" value="본인의 턴인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-753" y="620" width="253" height="120" as="geometry" />
+          <mxGeometry x="-753.25" y="520" width="246.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M0cPe0HIfnCteNu44rrV-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-61" target="M0cPe0HIfnCteNu44rrV-63">
+        <mxCell id="M0cPe0HIfnCteNu44rrV-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-62" target="M0cPe0HIfnCteNu44rrV-66">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="M0cPe0HIfnCteNu44rrV-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-61" target="M0cPe0HIfnCteNu44rrV-62">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="M0cPe0HIfnCteNu44rrV-61" value="행동할 것인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-766.5" y="810" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="M0cPe0HIfnCteNu44rrV-62" value="버릴 카드 2장 선택" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-686.5" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="-890" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-63" target="M0cPe0HIfnCteNu44rrV-119">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M0cPe0HIfnCteNu44rrV-63" value="턴 넘김" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="820" width="120" height="60" as="geometry" />
+          <mxGeometry x="-480" y="810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M0cPe0HIfnCteNu44rrV-66" value="시간 내에 카드를 선택했는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="1089" width="320" height="80" as="geometry" />
+        <mxCell id="M0cPe0HIfnCteNu44rrV-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-66" target="M0cPe0HIfnCteNu44rrV-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-66" target="M0cPe0HIfnCteNu44rrV-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-66" value="시간 내에 선택했는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="1000" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="M0cPe0HIfnCteNu44rrV-67" value="플레이어 기준 왼쪽부터 자동 선택" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-420" y="1099" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1090" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-68" target="M0cPe0HIfnCteNu44rrV-69">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M0cPe0HIfnCteNu44rrV-68" value="선택한 카드 버림" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="-890" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-69" target="M0cPe0HIfnCteNu44rrV-119">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M0cPe0HIfnCteNu44rrV-69" value="덱에서 한장 드로우" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="1340" width="120" height="60" as="geometry" />
+          <mxGeometry x="-890" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-75" target="M0cPe0HIfnCteNu44rrV-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-75" target="M0cPe0HIfnCteNu44rrV-76">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M0cPe0HIfnCteNu44rrV-75" value="모든 플레이어의 행동이 끝났는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="1460" width="440" height="80" as="geometry" />
+          <mxGeometry x="-860" y="1330" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-76" target="M0cPe0HIfnCteNu44rrV-77">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M0cPe0HIfnCteNu44rrV-76" value="점수 결산" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="1580" width="120" height="60" as="geometry" />
+          <mxGeometry x="-700" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-77" target="M0cPe0HIfnCteNu44rrV-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-77" target="M0cPe0HIfnCteNu44rrV-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-280" y="1660" />
+              <mxPoint x="-280" y="220" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="M0cPe0HIfnCteNu44rrV-77" value="게임 종료 조건이 도달했는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-840" y="1800" width="440" height="80" as="geometry" />
+          <mxGeometry x="-860" y="1620" width="440" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="M0cPe0HIfnCteNu44rrV-78" value="순위 결산" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="1990" width="120" height="60" as="geometry" />
+        <mxCell id="M0cPe0HIfnCteNu44rrV-78" value="순위 결산 및 게임종료" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="1770" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M0cPe0HIfnCteNu44rrV-83" value="행동 대기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="525" width="120" height="60" as="geometry" />
+        <mxCell id="M0cPe0HIfnCteNu44rrV-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-101" target="M0cPe0HIfnCteNu44rrV-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-101" value="행동대기 상태" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-103" target="M0cPe0HIfnCteNu44rrV-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-103" value="행동권 선택 상태" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-109" target="M0cPe0HIfnCteNu44rrV-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-109" value="행동" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-67" target="M0cPe0HIfnCteNu44rrV-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-119" target="M0cPe0HIfnCteNu44rrV-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-119" value="행동 종료 상태" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-123" target="M0cPe0HIfnCteNu44rrV-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-123" target="M0cPe0HIfnCteNu44rrV-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-123" value="시간 내에 선택했는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="710" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-125" target="M0cPe0HIfnCteNu44rrV-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-125" target="M0cPe0HIfnCteNu44rrV-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0cPe0HIfnCteNu44rrV-125" value="선택한 행동 이행" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="810" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
