@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Whale/3.28.266.14 Safari/537.36" version="24.8.3">
   <diagram name="페이지-1" id="N-UCn5mrVNeuuxENs6eP">
-    <mxGraphModel dx="5272" dy="1682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3070" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,10 +46,10 @@
           <mxGeometry x="-690" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M0cPe0HIfnCteNu44rrV-19" value="공개된 카드 중&lt;div&gt;가장 높은 숫자를 가진 플레이어가 행동&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M0cPe0HIfnCteNu44rrV-20" value="해당 플레이어 기준으로 시계방향으로 행동" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-35" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="205" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M0cPe0HIfnCteNu44rrV-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M0cPe0HIfnCteNu44rrV-47" target="M0cPe0HIfnCteNu44rrV-18">
           <mxGeometry relative="1" as="geometry" />
