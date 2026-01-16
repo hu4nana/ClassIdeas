@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Whale/4.35.351.16 Safari/537.36" version="29.3.1">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1623" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4788" dy="1340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -276,6 +276,360 @@
         </mxCell>
         <mxCell id="c-7mY9dLWGkCxqpFmoPC-19" parent="c-7mY9dLWGkCxqpFmoPC-11" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="DeleteFromInventory" vertex="1">
           <mxGeometry height="26" width="160" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-95" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="group" value="" vertex="1">
+          <mxGeometry height="401" width="922.8899999999999" x="-2020" y="419" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-39" parent="ZIN0BcJYNPcUNweTG6jD-95" style="rounded=0;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="401" width="712.89" x="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-40" parent="ZIN0BcJYNPcUNweTG6jD-95" style="rounded=0;whiteSpace=wrap;html=1;" value="건물 이름" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="21" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-41" parent="ZIN0BcJYNPcUNweTG6jD-95" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="360" width="310" x="350" y="21" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-72" parent="ZIN0BcJYNPcUNweTG6jD-95" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="NPC&lt;br&gt;&lt;div&gt;일러스트&lt;/div&gt;&lt;div&gt;( 얼굴 + 상반신 )&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="260" x="660" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-85" connectable="0" parent="ZIN0BcJYNPcUNweTG6jD-95" style="group" value="" vertex="1">
+          <mxGeometry height="290" width="110" x="226" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-73" parent="ZIN0BcJYNPcUNweTG6jD-85" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="290" width="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-17" parent="ZIN0BcJYNPcUNweTG6jD-85" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="10" y="6" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-74" parent="ZIN0BcJYNPcUNweTG6jD-85" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="60" y="6" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-75" parent="ZIN0BcJYNPcUNweTG6jD-85" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="10" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-76" parent="ZIN0BcJYNPcUNweTG6jD-85" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="60" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-77" parent="ZIN0BcJYNPcUNweTG6jD-85" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="10" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-78" parent="ZIN0BcJYNPcUNweTG6jD-85" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="60" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-79" parent="ZIN0BcJYNPcUNweTG6jD-85" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="10" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-80" parent="ZIN0BcJYNPcUNweTG6jD-85" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="60" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-81" parent="ZIN0BcJYNPcUNweTG6jD-85" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="10" y="199" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-82" parent="ZIN0BcJYNPcUNweTG6jD-85" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="60" y="199" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-83" parent="ZIN0BcJYNPcUNweTG6jD-85" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="10" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-84" parent="ZIN0BcJYNPcUNweTG6jD-85" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="60" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-90" edge="1" parent="ZIN0BcJYNPcUNweTG6jD-95" source="ZIN0BcJYNPcUNweTG6jD-89" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="ZIN0BcJYNPcUNweTG6jD-73" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="226" as="sourcePoint" />
+            <mxPoint x="460" y="176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-91" connectable="0" parent="ZIN0BcJYNPcUNweTG6jD-95" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="160" y="111" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-89" parent="ZIN0BcJYNPcUNweTG6jD-91" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="80" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-86" parent="ZIN0BcJYNPcUNweTG6jD-91" style="rounded=0;whiteSpace=wrap;html=1;" value="2*6&lt;div&gt;or&lt;/div&gt;&lt;div&gt;3*4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="50" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-87" parent="ZIN0BcJYNPcUNweTG6jD-91" style="rounded=0;whiteSpace=wrap;html=1;" value="6*2&lt;div&gt;or&lt;/div&gt;&lt;div&gt;4*4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="50" x="90" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-93" parent="ZIN0BcJYNPcUNweTG6jD-95" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="NPC의 나불나불" vertex="1">
+          <mxGeometry height="130" width="240" x="670" y="21" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-191" parent="ZIN0BcJYNPcUNweTG6jD-95" style="rounded=0;whiteSpace=wrap;html=1;" value="얼굴" vertex="1">
+          <mxGeometry height="60" width="64" x="366" y="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-192" parent="ZIN0BcJYNPcUNweTG6jD-95" style="rounded=0;whiteSpace=wrap;html=1;" value="레벨&lt;br&gt;이름" vertex="1">
+          <mxGeometry height="59" width="190" x="430" y="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-194" parent="ZIN0BcJYNPcUNweTG6jD-95" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="104" width="254" x="366" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-196" parent="ZIN0BcJYNPcUNweTG6jD-95" style="rounded=0;whiteSpace=wrap;html=1;" value="무기" vertex="1">
+          <mxGeometry height="60" width="50" x="380" y="131" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-198" parent="ZIN0BcJYNPcUNweTG6jD-95" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="104" width="254" x="366" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-199" parent="ZIN0BcJYNPcUNweTG6jD-95" style="rounded=0;whiteSpace=wrap;html=1;" value="방어구" vertex="1">
+          <mxGeometry height="60" width="50" x="380" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-94" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="401" width="712.89" x="-980" y="419" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="건물 이름" vertex="1">
+          <mxGeometry height="60" width="120" x="-950" y="437" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-9" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="362" width="260" x="-540" y="437" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-12" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="NPC&lt;br&gt;&lt;div&gt;일러스트&lt;/div&gt;&lt;div&gt;( 얼굴 + 상반신 )&lt;/div&gt;" vertex="1">
+          <mxGeometry height="221" width="230" x="-970" y="589" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="캐릭터 명단" vertex="1">
+          <mxGeometry height="361" width="170" x="-720" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-16" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="group" value="" vertex="1">
+          <mxGeometry height="50.5" width="143" x="-700" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-4" parent="ZIN0BcJYNPcUNweTG6jD-16" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;container=0;" value="" vertex="1">
+          <mxGeometry height="53.5" width="136" x="-7" y="-5.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-6" parent="ZIN0BcJYNPcUNweTG6jD-16" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="이름" vertex="1">
+          <mxGeometry height="16" width="64" x="55.99999999999999" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-13" parent="ZIN0BcJYNPcUNweTG6jD-16" style="ellipse;whiteSpace=wrap;html=1;align=left;container=0;" value="LV" vertex="1">
+          <mxGeometry height="40" width="39.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-5" parent="ZIN0BcJYNPcUNweTG6jD-16" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="16" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-14" parent="ZIN0BcJYNPcUNweTG6jD-16" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;장비렙&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14" width="24" x="55.99999999999999" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-15" parent="ZIN0BcJYNPcUNweTG6jD-16" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;방어구렙&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14" width="30" x="80" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-18" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="group" value="" vertex="1">
+          <mxGeometry height="50.5" width="143" x="-700" y="569.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-19" parent="ZIN0BcJYNPcUNweTG6jD-18" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;container=0;" value="" vertex="1">
+          <mxGeometry height="53.5" width="136" x="-7" y="-5.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-20" parent="ZIN0BcJYNPcUNweTG6jD-18" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="이름" vertex="1">
+          <mxGeometry height="16" width="64" x="55.99999999999999" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-21" parent="ZIN0BcJYNPcUNweTG6jD-18" style="ellipse;whiteSpace=wrap;html=1;align=left;container=0;" value="LV" vertex="1">
+          <mxGeometry height="40" width="39.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-22" parent="ZIN0BcJYNPcUNweTG6jD-18" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="16" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-23" parent="ZIN0BcJYNPcUNweTG6jD-18" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;장비렙&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14" width="24" x="55.99999999999999" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-24" parent="ZIN0BcJYNPcUNweTG6jD-18" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;방어구렙&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14" width="30" x="80" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-25" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="group" value="" vertex="1">
+          <mxGeometry height="50.5" width="143" x="-700" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-26" parent="ZIN0BcJYNPcUNweTG6jD-25" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;container=0;" value="" vertex="1">
+          <mxGeometry height="53.5" width="136" x="-7" y="-5.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-27" parent="ZIN0BcJYNPcUNweTG6jD-25" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="이름" vertex="1">
+          <mxGeometry height="16" width="64" x="55.99999999999999" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-28" parent="ZIN0BcJYNPcUNweTG6jD-25" style="ellipse;whiteSpace=wrap;html=1;align=left;container=0;" value="LV" vertex="1">
+          <mxGeometry height="40" width="39.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-29" parent="ZIN0BcJYNPcUNweTG6jD-25" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="16" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-30" parent="ZIN0BcJYNPcUNweTG6jD-25" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;장비렙&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14" width="24" x="55.99999999999999" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-31" parent="ZIN0BcJYNPcUNweTG6jD-25" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;방어구렙&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14" width="30" x="80" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-32" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="group" value="" vertex="1">
+          <mxGeometry height="50.5" width="143" x="-690" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-33" parent="ZIN0BcJYNPcUNweTG6jD-32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;container=0;" value="" vertex="1">
+          <mxGeometry height="53.5" width="136" x="-7" y="-5.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-34" parent="ZIN0BcJYNPcUNweTG6jD-32" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="이름" vertex="1">
+          <mxGeometry height="16" width="64" x="55.99999999999999" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-35" parent="ZIN0BcJYNPcUNweTG6jD-32" style="ellipse;whiteSpace=wrap;html=1;align=left;container=0;" value="LV" vertex="1">
+          <mxGeometry height="40" width="39.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-36" parent="ZIN0BcJYNPcUNweTG6jD-32" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="16" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-37" parent="ZIN0BcJYNPcUNweTG6jD-32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;장비렙&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14" width="24" x="55.99999999999999" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-38" parent="ZIN0BcJYNPcUNweTG6jD-32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;방어구렙&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14" width="30" x="80" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-133" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="group" value="" vertex="1">
+          <mxGeometry height="50.5" width="143" x="-700" y="748.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-134" parent="ZIN0BcJYNPcUNweTG6jD-133" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;container=0;" value="" vertex="1">
+          <mxGeometry height="53.5" width="136" x="-7" y="-5.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-135" parent="ZIN0BcJYNPcUNweTG6jD-133" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="이름" vertex="1">
+          <mxGeometry height="16" width="64" x="55.99999999999999" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-136" parent="ZIN0BcJYNPcUNweTG6jD-133" style="ellipse;whiteSpace=wrap;html=1;align=left;container=0;" value="LV" vertex="1">
+          <mxGeometry height="40" width="39.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-137" parent="ZIN0BcJYNPcUNweTG6jD-133" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="16" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-138" parent="ZIN0BcJYNPcUNweTG6jD-133" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;장비렙&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14" width="24" x="55.99999999999999" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-139" parent="ZIN0BcJYNPcUNweTG6jD-133" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;방어구렙&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14" width="30" x="80" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-140" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="group" value="" vertex="1">
+          <mxGeometry height="50.5" width="143" x="-700" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-141" parent="ZIN0BcJYNPcUNweTG6jD-140" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;container=0;" value="" vertex="1">
+          <mxGeometry height="53.5" width="136" x="-7" y="-5.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-142" parent="ZIN0BcJYNPcUNweTG6jD-140" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="이름" vertex="1">
+          <mxGeometry height="16" width="64" x="55.99999999999999" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-143" parent="ZIN0BcJYNPcUNweTG6jD-140" style="ellipse;whiteSpace=wrap;html=1;align=left;container=0;" value="LV" vertex="1">
+          <mxGeometry height="40" width="39.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-144" parent="ZIN0BcJYNPcUNweTG6jD-140" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="16" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-145" parent="ZIN0BcJYNPcUNweTG6jD-140" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;장비렙&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14" width="24" x="55.99999999999999" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-146" parent="ZIN0BcJYNPcUNweTG6jD-140" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;방어구렙&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14" width="30" x="80" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-147" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="group" value="" vertex="1">
+          <mxGeometry height="50.5" width="143" x="-700" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-148" parent="ZIN0BcJYNPcUNweTG6jD-147" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;container=0;" value="" vertex="1">
+          <mxGeometry height="53.5" width="136" x="-7" y="-5.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-149" parent="ZIN0BcJYNPcUNweTG6jD-147" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="이름" vertex="1">
+          <mxGeometry height="16" width="64" x="55.99999999999999" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-150" parent="ZIN0BcJYNPcUNweTG6jD-147" style="ellipse;whiteSpace=wrap;html=1;align=left;container=0;" value="LV" vertex="1">
+          <mxGeometry height="40" width="39.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-151" parent="ZIN0BcJYNPcUNweTG6jD-147" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="16" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-152" parent="ZIN0BcJYNPcUNweTG6jD-147" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;장비렙&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14" width="24" x="55.99999999999999" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-153" parent="ZIN0BcJYNPcUNweTG6jD-147" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;방어구렙&lt;/font&gt;" vertex="1">
+          <mxGeometry height="14" width="30" x="80" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-154" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="NPC의 나불나불" vertex="1">
+          <mxGeometry height="130" width="240" x="-970" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-156" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="401" width="712.89" x="-1810" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-157" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="건물 이름" vertex="1">
+          <mxGeometry height="60" width="120" x="-1800" y="991" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-158" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="229" width="390" x="-1770" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-159" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="NPC&lt;br&gt;&lt;div&gt;일러스트&lt;/div&gt;&lt;div&gt;( 얼굴 + 상반신 )&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="260" x="-1357.11" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-174" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZIN0BcJYNPcUNweTG6jD-176" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="ZIN0BcJYNPcUNweTG6jD-161" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1610" y="1196" as="sourcePoint" />
+            <mxPoint x="-1560" y="1146" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-175" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="160" x="-2020" y="1081" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-176" parent="ZIN0BcJYNPcUNweTG6jD-175" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="80" width="110" x="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-177" parent="ZIN0BcJYNPcUNweTG6jD-175" style="rounded=0;whiteSpace=wrap;html=1;" value="1*6&lt;div&gt;or&lt;/div&gt;&lt;div&gt;6*1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="50" x="80" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-179" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="NPC의 나불나불" vertex="1">
+          <mxGeometry height="130" width="240" x="-1350" y="991" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-182" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="group" value="" vertex="1">
+          <mxGeometry height="50" width="610" x="-1770" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-161" parent="ZIN0BcJYNPcUNweTG6jD-182" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="50" width="610" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-162" parent="ZIN0BcJYNPcUNweTG6jD-182" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="510" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-163" parent="ZIN0BcJYNPcUNweTG6jD-182" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="560" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-164" parent="ZIN0BcJYNPcUNweTG6jD-182" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="460" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-165" parent="ZIN0BcJYNPcUNweTG6jD-182" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="410" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-166" parent="ZIN0BcJYNPcUNweTG6jD-182" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="360" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-167" parent="ZIN0BcJYNPcUNweTG6jD-182" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="10" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-168" parent="ZIN0BcJYNPcUNweTG6jD-182" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="60" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-169" parent="ZIN0BcJYNPcUNweTG6jD-182" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="310" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-170" parent="ZIN0BcJYNPcUNweTG6jD-182" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="210" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-171" parent="ZIN0BcJYNPcUNweTG6jD-182" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="259.5" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-172" parent="ZIN0BcJYNPcUNweTG6jD-182" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="160" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-173" parent="ZIN0BcJYNPcUNweTG6jD-182" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="110" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-190" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="140" x="-1990" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-189" parent="ZIN0BcJYNPcUNweTG6jD-190" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="or" vertex="1">
+          <mxGeometry height="80" width="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-186" connectable="0" parent="ZIN0BcJYNPcUNweTG6jD-190" style="group" value="" vertex="1">
+          <mxGeometry height="76" width="40" x="83" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-183" parent="ZIN0BcJYNPcUNweTG6jD-186" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-184" parent="ZIN0BcJYNPcUNweTG6jD-186" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;LV&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-185" parent="ZIN0BcJYNPcUNweTG6jD-186" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;무|방&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="40" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-187" parent="ZIN0BcJYNPcUNweTG6jD-190" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="얼굴" vertex="1">
+          <mxGeometry height="36" width="39.99999999999999" x="10" y="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
