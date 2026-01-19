@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Whale/4.35.351.16 Safari/537.36" version="29.3.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Whale/4.35.351.16 Safari/537.36" version="29.3.2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4019" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3938" dy="2017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-30" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" value="=============================&lt;br&gt;CharacterDataSO&lt;div&gt;ID,Name,해금현황,장신구장착현황&lt;/div&gt;&lt;div&gt;=============================&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;=============================&lt;/div&gt;&lt;div&gt;PartyMemberSO&lt;/div&gt;&lt;div&gt;파티에 참여한 캐릭터 현황&lt;/div&gt;&lt;div&gt;=============================&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;=============================&lt;/div&gt;&lt;div&gt;PartyInventorySO&lt;/div&gt;&lt;div&gt;파티 인벤토리의 아이템 현황&lt;/div&gt;&lt;div&gt;( ID, Stack )&lt;/div&gt;&lt;div&gt;=============================&lt;/div&gt;" vertex="1">
+          <mxGeometry height="472.75" width="380" x="435" y="1400" as="geometry" />
+        </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="Person" vertex="1">
           <mxGeometry height="138" width="160" x="220" y="110" as="geometry">
             <mxRectangle height="26" width="160" x="230" y="140" as="alternateBounds" />
@@ -119,7 +122,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VZG7q_dwOsnS1BlAZusZ-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="Inventory" vertex="1">
-          <mxGeometry height="138" width="160" x="1360" y="110" as="geometry">
+          <mxGeometry height="138" width="160" x="1460" y="110" as="geometry">
             <mxRectangle height="26" width="160" x="230" y="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -139,51 +142,60 @@
           <mxGeometry height="26" width="160" y="112" as="geometry" />
         </mxCell>
         <mxCell id="VZG7q_dwOsnS1BlAZusZ-6" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="InventoryManager" vertex="1">
-          <mxGeometry height="320" width="160" x="1081" y="110" as="geometry">
+          <mxGeometry height="450" width="279" x="1081" y="110" as="geometry">
             <mxRectangle height="26" width="160" x="550" y="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VZG7q_dwOsnS1BlAZusZ-7" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+List&lt;T&gt; Inventory" vertex="1">
-          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        <mxCell id="VZG7q_dwOsnS1BlAZusZ-7" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-Inventory Inventory" vertex="1">
+          <mxGeometry height="26" width="279" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="VZG7q_dwOsnS1BlAZusZ-11" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+InventorySO inventorySO" vertex="1">
-          <mxGeometry height="26" width="160" y="52" as="geometry" />
+        <mxCell id="VZG7q_dwOsnS1BlAZusZ-11" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-InventorySlot selectedSlot" vertex="1">
+          <mxGeometry height="26" width="279" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="VZG7q_dwOsnS1BlAZusZ-31" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+SlotContainer InventoryUI" vertex="1">
-          <mxGeometry height="26" width="160" y="78" as="geometry" />
+        <mxCell id="VZG7q_dwOsnS1BlAZusZ-31" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="--" vertex="1">
+          <mxGeometry height="26" width="279" y="78" as="geometry" />
         </mxCell>
         <mxCell id="VZG7q_dwOsnS1BlAZusZ-12" parent="VZG7q_dwOsnS1BlAZusZ-6" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="8" width="160" y="104" as="geometry" />
+          <mxGeometry height="8" width="279" y="104" as="geometry" />
         </mxCell>
-        <mxCell id="VZG7q_dwOsnS1BlAZusZ-13" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Swap" vertex="1">
-          <mxGeometry height="26" width="160" y="112" as="geometry" />
+        <mxCell id="VZG7q_dwOsnS1BlAZusZ-13" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-Initialized()" vertex="1">
+          <mxGeometry height="26" width="279" y="112" as="geometry" />
         </mxCell>
-        <mxCell id="VZG7q_dwOsnS1BlAZusZ-14" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="AddToInventory" vertex="1">
-          <mxGeometry height="26" width="160" y="138" as="geometry" />
+        <mxCell id="VZG7q_dwOsnS1BlAZusZ-14" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void OnLeftClick(InventorySlotUI)" vertex="1">
+          <mxGeometry height="26" width="279" y="138" as="geometry" />
         </mxCell>
-        <mxCell id="VZG7q_dwOsnS1BlAZusZ-17" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="DeleteFromInventory" vertex="1">
-          <mxGeometry height="26" width="160" y="164" as="geometry" />
+        <mxCell id="VZG7q_dwOsnS1BlAZusZ-17" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void OnRightClick(inventorySlotUI)" vertex="1">
+          <mxGeometry height="26" width="279" y="164" as="geometry" />
         </mxCell>
-        <mxCell id="VZG7q_dwOsnS1BlAZusZ-18" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="ReduceDataCount" vertex="1">
-          <mxGeometry height="26" width="160" y="190" as="geometry" />
+        <mxCell id="VZG7q_dwOsnS1BlAZusZ-18" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void BuyItem(InventorySlot)" vertex="1">
+          <mxGeometry height="26" width="279" y="190" as="geometry" />
         </mxCell>
-        <mxCell id="VZG7q_dwOsnS1BlAZusZ-19" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="IncreaseDataCount" vertex="1">
-          <mxGeometry height="26" width="160" y="216" as="geometry" />
+        <mxCell id="VZG7q_dwOsnS1BlAZusZ-19" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void SellItem(InventorySlot)" vertex="1">
+          <mxGeometry height="26" width="279" y="216" as="geometry" />
         </mxCell>
-        <mxCell id="VZG7q_dwOsnS1BlAZusZ-20" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="CopyDataSOToRuntime()" vertex="1">
-          <mxGeometry height="26" width="160" y="242" as="geometry" />
+        <mxCell id="VZG7q_dwOsnS1BlAZusZ-20" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void UseItem(InventorySlot)" vertex="1">
+          <mxGeometry height="26" width="279" y="242" as="geometry" />
         </mxCell>
-        <mxCell id="VZG7q_dwOsnS1BlAZusZ-29" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="CopyDataRuntimeToSO()" vertex="1">
-          <mxGeometry height="26" width="160" y="268" as="geometry" />
+        <mxCell id="VZG7q_dwOsnS1BlAZusZ-29" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void EquipTrinket(InventorySlot)" vertex="1">
+          <mxGeometry height="26" width="279" y="268" as="geometry" />
         </mxCell>
-        <mxCell id="VZG7q_dwOsnS1BlAZusZ-30" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="CopyDataRuntimeToSO()" vertex="1">
-          <mxGeometry height="26" width="160" y="294" as="geometry" />
+        <mxCell id="VZG7q_dwOsnS1BlAZusZ-30" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void UnequipTrinket(InventorySlot)" vertex="1">
+          <mxGeometry height="26" width="279" y="294" as="geometry" />
         </mxCell>
-        <mxCell id="VZG7q_dwOsnS1BlAZusZ-16" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VZG7q_dwOsnS1BlAZusZ-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="VZG7q_dwOsnS1BlAZusZ-7" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1190" y="260" as="sourcePoint" />
-            <mxPoint x="1050" y="200" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-16" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void SlotSelected(InventorySlot)" vertex="1">
+          <mxGeometry height="26" width="279" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-17" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void SlotDeselected()" vertex="1">
+          <mxGeometry height="26" width="279" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-18" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void MoveSelectedItemToSlot(InventorySlot)" vertex="1">
+          <mxGeometry height="26" width="279" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-19" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void SetItemToSlot(InventorySlot slot)" vertex="1">
+          <mxGeometry height="26" width="279" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-20" parent="VZG7q_dwOsnS1BlAZusZ-6" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void SwapItemWithSlots(InventorySlot)" vertex="1">
+          <mxGeometry height="26" width="279" y="424" as="geometry" />
         </mxCell>
         <mxCell id="VZG7q_dwOsnS1BlAZusZ-21" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="InventorySO" vertex="1">
           <mxGeometry height="52" width="160" x="860" y="140" as="geometry">
@@ -193,14 +205,8 @@
         <mxCell id="VZG7q_dwOsnS1BlAZusZ-22" parent="VZG7q_dwOsnS1BlAZusZ-21" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+List&lt;T&gt; Data" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="VZG7q_dwOsnS1BlAZusZ-27" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VZG7q_dwOsnS1BlAZusZ-22" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VZG7q_dwOsnS1BlAZusZ-11" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1049" y="130" as="sourcePoint" />
-            <mxPoint x="930" y="130" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="VZG7q_dwOsnS1BlAZusZ-32" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="SlotContainer" vertex="1">
-          <mxGeometry height="216" width="160" x="850" y="248" as="geometry">
+          <mxGeometry height="216" width="160" x="1650" y="748.5" as="geometry">
             <mxRectangle height="26" width="160" x="230" y="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -229,7 +235,7 @@
           <mxGeometry height="26" width="160" y="190" as="geometry" />
         </mxCell>
         <mxCell id="VZG7q_dwOsnS1BlAZusZ-34" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="Slot&lt;T&gt;" vertex="1">
-          <mxGeometry height="138" width="190" x="2220" y="596" as="geometry">
+          <mxGeometry height="138" width="190" x="1950" y="381" as="geometry">
             <mxRectangle height="26" width="160" x="230" y="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -249,7 +255,7 @@
           <mxGeometry height="26" width="190" y="112" as="geometry" />
         </mxCell>
         <mxCell id="c-7mY9dLWGkCxqpFmoPC-11" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="IBuilding" vertex="1">
-          <mxGeometry height="268" width="160" x="790" y="620" as="geometry">
+          <mxGeometry height="268" width="160" x="1960" y="1060" as="geometry">
             <mxRectangle height="26" width="160" x="230" y="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -677,7 +683,7 @@
           <mxGeometry height="299" width="190" x="-1580" y="991" as="geometry" />
         </mxCell>
         <mxCell id="ZIN0BcJYNPcUNweTG6jD-216" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="Inventory" vertex="1">
-          <mxGeometry height="190" width="160" x="1800" y="570" as="geometry">
+          <mxGeometry height="190" width="160" x="1730" y="367" as="geometry">
             <mxRectangle height="26" width="160" x="230" y="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -700,10 +706,90 @@
           <mxGeometry height="26" width="160" y="138" as="geometry" />
         </mxCell>
         <mxCell id="ZIN0BcJYNPcUNweTG6jD-224" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="인벤토리 관리자한테서&lt;div&gt;index를 전달받고&lt;/div&gt;&lt;div&gt;해당 index의 요소를 삭제&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="200" x="1800" y="498" as="geometry" />
+          <mxGeometry height="60" width="200" x="1730" y="295" as="geometry" />
         </mxCell>
-        <mxCell id="ZIN0BcJYNPcUNweTG6jD-232" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Inventory는&lt;div&gt;InventorySlits의 집합이다&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="150" x="2180" y="464" as="geometry" />
+        <mxCell id="ZIN0BcJYNPcUNweTG6jD-232" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Inventory는&lt;div&gt;InventorySlots의 집합이다&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="1990" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="InventorySlotUI" vertex="1">
+          <mxGeometry height="320" width="360" x="1670" y="-128" as="geometry">
+            <mxRectangle height="26" width="160" x="550" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-1" parent="QrLQ1HB0-cAcU2no1IPm-0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+InventoryManager InventoryManager" vertex="1">
+          <mxGeometry height="26" width="360" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-2" parent="QrLQ1HB0-cAcU2no1IPm-0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-InventorySlot Slot" vertex="1">
+          <mxGeometry height="26" width="360" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-3" parent="QrLQ1HB0-cAcU2no1IPm-0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+SlotContainer InventoryUI" vertex="1">
+          <mxGeometry height="26" width="360" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-4" parent="QrLQ1HB0-cAcU2no1IPm-0" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="360" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-5" parent="QrLQ1HB0-cAcU2no1IPm-0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Swap" vertex="1">
+          <mxGeometry height="26" width="360" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-6" parent="QrLQ1HB0-cAcU2no1IPm-0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="AddToInventory" vertex="1">
+          <mxGeometry height="26" width="360" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-7" parent="QrLQ1HB0-cAcU2no1IPm-0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="DeleteFromInventory" vertex="1">
+          <mxGeometry height="26" width="360" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-8" parent="QrLQ1HB0-cAcU2no1IPm-0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="ReduceDataCount" vertex="1">
+          <mxGeometry height="26" width="360" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-9" parent="QrLQ1HB0-cAcU2no1IPm-0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="IncreaseDataCount" vertex="1">
+          <mxGeometry height="26" width="360" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-10" parent="QrLQ1HB0-cAcU2no1IPm-0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="CopyDataSOToRuntime()" vertex="1">
+          <mxGeometry height="26" width="360" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-11" parent="QrLQ1HB0-cAcU2no1IPm-0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="CopyDataRuntimeToSO()" vertex="1">
+          <mxGeometry height="26" width="360" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-12" parent="QrLQ1HB0-cAcU2no1IPm-0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="CopyDataRuntimeToSO()" vertex="1">
+          <mxGeometry height="26" width="360" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-13" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="판단은&lt;br&gt;InventoryManager&lt;br&gt;입력받는건&lt;br&gt;InvevtorySlotUI" vertex="1">
+          <mxGeometry height="60" width="150" x="640" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-14" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;InventorySlotUI의 Input에 대한 Output은 InventorySlotUI가 판단&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="600" x="400" y="500.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-21" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VZG7q_dwOsnS1BlAZusZ-0" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="VZG7q_dwOsnS1BlAZusZ-6" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1400" y="340" as="sourcePoint" />
+            <mxPoint x="1560" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-23" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VZG7q_dwOsnS1BlAZusZ-6" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="QrLQ1HB0-cAcU2no1IPm-0" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="940" y="80" as="sourcePoint" />
+            <mxPoint x="1100" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-24" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" value="마우스 좌클릭 = Item이 있을 시 정보 노출&lt;div&gt;마우스 우클릭 = 현재 상황에 맞게 상호작용 ( 구매, 판매, 장착, 해제 )&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="669.5" x="920.5" y="649.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-26" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" value="캐릭터 SO에 장신구 ID 넣을 2칸 넣기" vertex="1">
+          <mxGeometry height="100" width="669.5" x="870" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-27" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" value="마을씬" vertex="1">
+          <mxGeometry height="125" width="210" x="520" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-28" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" value="필드씬" vertex="1">
+          <mxGeometry height="270.5" width="450" x="1190" y="1501.12" as="geometry" />
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-32" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QrLQ1HB0-cAcU2no1IPm-30" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="QrLQ1HB0-cAcU2no1IPm-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="970" y="1620" as="sourcePoint" />
+            <mxPoint x="1020" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-33" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" value="&lt;div&gt;=============================&lt;/div&gt;&lt;div&gt;PartyMemberSO&lt;/div&gt;&lt;div&gt;파티에 참여한 캐릭터 현황&lt;/div&gt;&lt;div&gt;=============================&lt;/div&gt;&lt;div&gt;을 받아와서 그걸 기반으로&lt;/div&gt;=============================&lt;br&gt;CharacterDataSO&lt;div&gt;ID,Name,해금현황,장신구장착현황&lt;/div&gt;&lt;div&gt;=============================&lt;/div&gt;&lt;div&gt;를 가져옴&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;=============================&lt;/div&gt;&lt;div&gt;PartyInventorySO&lt;/div&gt;&lt;div&gt;파티 인벤토리의 아이템 현황&lt;/div&gt;&lt;div&gt;=============================&lt;/div&gt;&lt;/div&gt;&lt;div&gt;을 받아서 가져옴&lt;/div&gt;" vertex="1">
+          <mxGeometry height="330" width="265" x="870" y="1480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
