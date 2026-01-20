@@ -142,7 +142,7 @@
           <mxGeometry height="26" width="160" y="112" as="geometry" />
         </mxCell>
         <mxCell id="VZG7q_dwOsnS1BlAZusZ-6" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="InventoryManager" vertex="1">
-          <mxGeometry height="450" width="279" x="1081" y="110" as="geometry">
+          <mxGeometry height="450" width="279" x="1080" y="-70" as="geometry">
             <mxRectangle height="26" width="160" x="550" y="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -804,7 +804,7 @@
           <mxGeometry height="210" width="480" x="-530" y="-1753" as="geometry" />
         </mxCell>
         <mxCell id="jtJp3_kSBtDjNOyxY1CO-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="ItemDataSO" vertex="1">
-          <mxGeometry height="182" width="150" x="-120" y="-170" as="geometry">
+          <mxGeometry height="182" width="150" x="-290" y="-280" as="geometry">
             <mxRectangle height="26" width="160" x="550" y="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -827,7 +827,7 @@
           <mxGeometry height="26" width="150" y="156" as="geometry" />
         </mxCell>
         <mxCell id="jtJp3_kSBtDjNOyxY1CO-22" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="ItemInstance" vertex="1">
-          <mxGeometry height="216" width="259" x="91" y="-170" as="geometry">
+          <mxGeometry height="216" width="259" x="-79" y="-280" as="geometry">
             <mxRectangle height="26" width="160" x="550" y="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1024,50 +1024,41 @@
         </mxCell>
         <mxCell id="jtJp3_kSBtDjNOyxY1CO-136" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jtJp3_kSBtDjNOyxY1CO-4" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="jtJp3_kSBtDjNOyxY1CO-22" value="">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="170" y="-90" as="sourcePoint" />
-            <mxPoint x="330" y="-90" as="targetPoint" />
+            <mxPoint y="-200" as="sourcePoint" />
+            <mxPoint x="160" y="-200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jtJp3_kSBtDjNOyxY1CO-138" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="InventorySlot" vertex="1">
-          <mxGeometry height="320" width="360" x="400" y="-240" as="geometry">
+          <mxGeometry height="190" width="220" x="270" y="-280" as="geometry">
             <mxRectangle height="26" width="160" x="550" y="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jtJp3_kSBtDjNOyxY1CO-139" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+InventoryManager InventoryManager" vertex="1">
-          <mxGeometry height="26" width="360" y="26" as="geometry" />
+        <mxCell id="jtJp3_kSBtDjNOyxY1CO-139" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ItemInstance Instance" vertex="1">
+          <mxGeometry height="26" width="220" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="jtJp3_kSBtDjNOyxY1CO-140" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-InventorySlot Slot" vertex="1">
-          <mxGeometry height="26" width="360" y="52" as="geometry" />
-        </mxCell>
-        <mxCell id="jtJp3_kSBtDjNOyxY1CO-141" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+SlotContainer InventoryUI" vertex="1">
-          <mxGeometry height="26" width="360" y="78" as="geometry" />
+        <mxCell id="jtJp3_kSBtDjNOyxY1CO-140" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+bool IsEmpty" vertex="1">
+          <mxGeometry height="26" width="220" y="52" as="geometry" />
         </mxCell>
         <mxCell id="jtJp3_kSBtDjNOyxY1CO-142" parent="jtJp3_kSBtDjNOyxY1CO-138" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="8" width="360" y="104" as="geometry" />
+          <mxGeometry height="8" width="220" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="jtJp3_kSBtDjNOyxY1CO-143" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Swap" vertex="1">
-          <mxGeometry height="26" width="360" y="112" as="geometry" />
+        <mxCell id="jtJp3_kSBtDjNOyxY1CO-143" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+InventorySlot()" vertex="1">
+          <mxGeometry height="26" width="220" y="86" as="geometry" />
         </mxCell>
-        <mxCell id="jtJp3_kSBtDjNOyxY1CO-144" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="AddToInventory" vertex="1">
-          <mxGeometry height="26" width="360" y="138" as="geometry" />
+        <mxCell id="jtJp3_kSBtDjNOyxY1CO-144" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void Set(ItemInstance item)" vertex="1">
+          <mxGeometry height="26" width="220" y="112" as="geometry" />
         </mxCell>
-        <mxCell id="jtJp3_kSBtDjNOyxY1CO-145" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="DeleteFromInventory" vertex="1">
-          <mxGeometry height="26" width="360" y="164" as="geometry" />
+        <mxCell id="jtJp3_kSBtDjNOyxY1CO-145" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void Clear()" vertex="1">
+          <mxGeometry height="26" width="220" y="138" as="geometry" />
         </mxCell>
-        <mxCell id="jtJp3_kSBtDjNOyxY1CO-146" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="ReduceDataCount" vertex="1">
-          <mxGeometry height="26" width="360" y="190" as="geometry" />
+        <mxCell id="jtJp3_kSBtDjNOyxY1CO-146" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void SwapWith(InventorySlot other)" vertex="1">
+          <mxGeometry height="26" width="220" y="164" as="geometry" />
         </mxCell>
-        <mxCell id="jtJp3_kSBtDjNOyxY1CO-147" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="IncreaseDataCount" vertex="1">
-          <mxGeometry height="26" width="360" y="216" as="geometry" />
-        </mxCell>
-        <mxCell id="jtJp3_kSBtDjNOyxY1CO-148" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="CopyDataSOToRuntime()" vertex="1">
-          <mxGeometry height="26" width="360" y="242" as="geometry" />
-        </mxCell>
-        <mxCell id="jtJp3_kSBtDjNOyxY1CO-149" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="CopyDataRuntimeToSO()" vertex="1">
-          <mxGeometry height="26" width="360" y="268" as="geometry" />
-        </mxCell>
-        <mxCell id="jtJp3_kSBtDjNOyxY1CO-150" parent="jtJp3_kSBtDjNOyxY1CO-138" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="CopyDataRuntimeToSO()" vertex="1">
-          <mxGeometry height="26" width="360" y="294" as="geometry" />
+        <mxCell id="jtJp3_kSBtDjNOyxY1CO-151" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jtJp3_kSBtDjNOyxY1CO-22" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="jtJp3_kSBtDjNOyxY1CO-138" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-130" y="-260" as="sourcePoint" />
+            <mxPoint x="-69" y="-260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
