@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Whale/4.35.351.16 Safari/537.36" version="29.3.2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4459" dy="3827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3964" dy="3455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -827,7 +827,7 @@
           <mxGeometry height="26" width="279" y="156" as="geometry" />
         </mxCell>
         <mxCell id="jtJp3_kSBtDjNOyxY1CO-22" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="ItemInstance" vertex="1">
-          <mxGeometry height="450" width="279" x="-590" y="-940" as="geometry">
+          <mxGeometry height="450" width="279" x="-826" y="-949" as="geometry">
             <mxRectangle height="26" width="160" x="550" y="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1042,6 +1042,9 @@
             <mxPoint x="-1679" y="-400" as="sourcePoint" />
             <mxPoint x="-2100" y="-400" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jtJp3_kSBtDjNOyxY1CO-115" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" value="SO는 초기화 값&lt;div&gt;즉, 런타임에 존재하는 데이터들을 초기화함&lt;/div&gt;&lt;div&gt;따라서 SO를 만들 때 그 데이터를 담은 런타임 데이터가 무조건 적으로 필요&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="726" x="-1976" y="-1030" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
