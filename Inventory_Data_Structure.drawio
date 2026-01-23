@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Whale/4.35.351.16 Safari/537.36" version="29.3.4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3546" dy="2956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3850" dy="3367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -724,7 +724,7 @@
         <mxCell id="jtJp3_kSBtDjNOyxY1CO-30" parent="jtJp3_kSBtDjNOyxY1CO-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void SetStack(int amount)" vertex="1">
           <mxGeometry height="26" width="259" y="190" as="geometry" />
         </mxCell>
-        <mxCell id="jtJp3_kSBtDjNOyxY1CO-43" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="CharacterBaseDataSO" vertex="1">
+        <mxCell id="jtJp3_kSBtDjNOyxY1CO-43" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="CharacterDataSO" vertex="1">
           <mxGeometry height="398" width="330" x="-150" y="-1270" as="geometry">
             <mxRectangle height="26" width="160" x="-150" y="-1270" as="alternateBounds" />
           </mxGeometry>
@@ -774,8 +774,8 @@
         <mxCell id="jtJp3_kSBtDjNOyxY1CO-58" parent="jtJp3_kSBtDjNOyxY1CO-43" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void CopyFromRuntime(CharacterBaseData data)" vertex="1">
           <mxGeometry height="26" width="330" y="372" as="geometry" />
         </mxCell>
-        <mxCell id="jtJp3_kSBtDjNOyxY1CO-59" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="CharacterBaseData" vertex="1">
-          <mxGeometry height="398" width="330" x="330" y="-1270" as="geometry">
+        <mxCell id="jtJp3_kSBtDjNOyxY1CO-59" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="CharacterInstance" vertex="1">
+          <mxGeometry height="398" width="330" x="1020" y="-1350" as="geometry">
             <mxRectangle height="26" width="160" x="431" y="-1270" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -823,18 +823,6 @@
         </mxCell>
         <mxCell id="jtJp3_kSBtDjNOyxY1CO-74" parent="jtJp3_kSBtDjNOyxY1CO-59" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void CopyFromSO(CharacterBaseDataSO so)" vertex="1">
           <mxGeometry height="26" width="330" y="372" as="geometry" />
-        </mxCell>
-        <mxCell id="jtJp3_kSBtDjNOyxY1CO-76" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jtJp3_kSBtDjNOyxY1CO-43" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="jtJp3_kSBtDjNOyxY1CO-59" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="110" y="-1060" as="sourcePoint" />
-            <mxPoint x="270" y="-1060" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jtJp3_kSBtDjNOyxY1CO-77" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jtJp3_kSBtDjNOyxY1CO-59" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" target="jtJp3_kSBtDjNOyxY1CO-43" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="330" y="-1240" as="sourcePoint" />
-            <mxPoint x="441" y="-1260" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="jtJp3_kSBtDjNOyxY1CO-78" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="PartyMemberIDSO" vertex="1">
           <mxGeometry height="52" width="190" x="-160" y="-810" as="geometry">
@@ -998,6 +986,21 @@
         </mxCell>
         <mxCell id="N2uIkFi1DNT5PRXYkEVB-16" parent="N2uIkFi1DNT5PRXYkEVB-10" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-void Initialized()" vertex="1">
           <mxGeometry height="26" width="160" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="6wxRee_0GMhof_xZqC6v-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;캐릭터의 스탯이 변화하는 경우&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;1. 장신구&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;2. 패시브&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;3. 기벽&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;4. 버프 혹은 디버프&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="600" x="1390" y="-1350" as="geometry" />
+        </mxCell>
+        <mxCell id="6wxRee_0GMhof_xZqC6v-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;ItemInstance와 InventorySlot의 관계.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;ItemInstance 하나론 그 어떤 것도 이루어 낼 수 없음.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;ItemData의 값은 기본적으로 고정되어있음.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;==================================================&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Character의 기초 스탯과, 최종 스탯의 정의를 내리자...&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;기초스탯은 CharacterDataSO가 가지고있음.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;따라서 CharacterInstance는 최종스탯을 계산하여 적용시켜도 된다.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="600" x="1390" y="-1070" as="geometry" />
+        </mxCell>
+        <mxCell id="6wxRee_0GMhof_xZqC6v-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;그럼 최종스탯 계산은 어디서 하는가?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterInstance? or CharacterDataManager?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;기본적인 흐름은&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterList&amp;lt;CharacterInstance&amp;gt;를 만들고,&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterSlot이 CharacterInstance를 담고...&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterUIManager가 CharacterSlot들을 관리한다.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;그럼 캐릭터의 스탯을 계산하는건 과연 누구여야하는가?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterInstance 자신&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;혹은&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterDataManager&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="440" width="600" x="2450" y="-1530" as="geometry" />
+        </mxCell>
+        <mxCell id="6wxRee_0GMhof_xZqC6v-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;만약 CharacterDataManager라면&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterInstance&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;패시브 활성화여부는 Bool리스트로&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;장신구 장착 여부는 int리스트로 장신구의 ID를 받아오도록 설정되어있음&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;따라서 Instance자신이 패시브, 기벽, 장신구 등의 요소를 취합하여&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;최종스탯을 계산하는건 불가능&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterDataManager가 요소의 정보를 가지고있어야하며.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterInstance의 Bool 혹은 Int에 맞춰서 대입 후 캐릭터 스탯을 정리해야함&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;또한 PartyMemeber로서 다른 씬으로 캐릭터들의 정보를 전달할 때,&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;캐릭터의 기초적인 정보를 넘겨야 관리에 용이&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="440" width="740" x="3020" y="-1430" as="geometry" />
+        </mxCell>
+        <mxCell id="6wxRee_0GMhof_xZqC6v-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;또한 List&amp;lt;CharacterInstance&amp;gt;는 2개만 있으면 된다.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;마을에 있는 명단인 CharacterList.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;필드씬으로 넘어가는 PartyMemberList...&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;PartyInventorySO의 경우&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;ItemInstance를 담은 Inventory의 형식이지만&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;PartyMemberSO의 경우 캐릭터의 아이디만 넘기면 된다.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;왜? 필드씬에서 필요한건 캐릭터들의 기초스탯이기때문...&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="440" width="740" x="3020" y="-1060" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
