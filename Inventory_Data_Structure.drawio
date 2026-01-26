@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Whale/4.35.351.16 Safari/537.36" version="29.3.4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3418" dy="3030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3255" dy="2909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1177,8 +1177,11 @@
         <mxCell id="6wxRee_0GMhof_xZqC6v-139" parent="6wxRee_0GMhof_xZqC6v-130" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void Clear()" vertex="1">
           <mxGeometry height="26" width="330" y="216" as="geometry" />
         </mxCell>
-        <mxCell id="6wxRee_0GMhof_xZqC6v-140" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="TownCharacter, PartyMember" vertex="1">
+        <mxCell id="6wxRee_0GMhof_xZqC6v-140" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="TownCharacter, PartyMember&lt;div&gt;이후 대장간,&amp;nbsp; 능력 해금 등은 다른 CharacterList에서 선택된 CharacterSlot의 Instance를 받아오는 것으로 끝&lt;/div&gt;" vertex="1">
           <mxGeometry height="250" width="600" x="1830" y="-1656" as="geometry" />
+        </mxCell>
+        <mxCell id="jqb1lBJg9BFFVCb-VVlI-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 1, 1); font-size: 32px;&quot;&gt;현재 발견된 Inventory 버그.&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 1, 1);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 1, 1);&quot;&gt;1. 동일 아이템의 꽉 찬 스택을 작은 스택으로 드래그 앤 드랍하면&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 1, 1);&quot;&gt;&amp;nbsp;인스턴스 교환( or AddStack일수도 )이 일어나지만,&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 1, 1);&quot;&gt;그 반대의 경우엔 아무런 변화도 일어나지 않음&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 1, 1);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 1, 1);&quot;&gt;2. 위의 상황에서 인스턴스 교환이 일어났을 시, UI표시 갱신 안됨&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="270" width="710" x="1180" y="-560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
