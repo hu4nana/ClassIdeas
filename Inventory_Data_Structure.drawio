@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Whale/4.35.351.16 Safari/537.36" version="29.3.4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3215" dy="3002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3301" dy="3080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1282,9 +1282,6 @@
         <mxCell id="TNDlyshEkmjnkjaREmwd-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;각 캐릭터의 일지, 혹은 일기 느낌의 UI디자인도 괜찮을듯&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;b style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;왜냐?&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1._선택적으로 기억을 잃었으나.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;그걸 다시 찾으러가는 미련한 컨셉이기때문에&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;최대한 처절하고 구질구질한 느낌 살리는게&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;괜찮을지도?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;2._결국 원정대를 꾸려서 탐사를 지휘하는 사람이 있을 것이기때문에&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;지휘관_혹은 조사단장_혹은 원정대장&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;각 용병(혹은 조사원들, 원정단원들)의 상태를 확인하는 보고서?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;서류철? 그런느낌으로&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="370" width="690" x="-700" y="-840" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 1, 1); font-size: 32px;&quot;&gt;현재 발견된 CharacterList 버그.&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;TownCharacterList내에서 Slot교환됨&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;( ^^이거 되면 안됨 ^^ )&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 1, 1);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="270" width="710" x="2140" y="-1730" as="geometry" />
-        </mxCell>
         <mxCell id="TNDlyshEkmjnkjaREmwd-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;UI상호작용에 대해서...&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;Event를 사용하기..?&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;OnInteractUI이벤트로,&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;해당 UI가 켜져있으면, 액티브 트루, 아니면 폴&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="270" width="710" x="2120" y="-2200" as="geometry" />
         </mxCell>
@@ -1376,9 +1373,6 @@
         </mxCell>
         <mxCell id="TNDlyshEkmjnkjaREmwd-37" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void Refresh()" vertex="1">
           <mxGeometry height="26" width="490" y="710" as="geometry" />
-        </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-25" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="기본적 정의&lt;div&gt;Slot의 Instance( CharacterInstance ) 의 정보를 UI에 연결&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="360" x="2820" y="-1255" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
