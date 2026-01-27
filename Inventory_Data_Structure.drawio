@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Whale/4.35.351.16 Safari/537.36" version="29.3.4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3301" dy="3080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3215" dy="3002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -982,7 +982,7 @@
           <mxGeometry height="140" width="600" x="1054" y="55" as="geometry" />
         </mxCell>
         <mxCell id="N2uIkFi1DNT5PRXYkEVB-10" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="DragIcon" vertex="1">
-          <mxGeometry height="112" width="160" x="2560" y="-510" as="geometry">
+          <mxGeometry height="112" width="160" x="2340" y="-514" as="geometry">
             <mxRectangle height="26" width="160" x="550" y="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -999,10 +999,10 @@
           <mxGeometry height="26" width="160" y="86" as="geometry" />
         </mxCell>
         <mxCell id="6wxRee_0GMhof_xZqC6v-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;캐릭터의 스탯이 변화하는 경우&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;1. 장신구&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;2. 패시브&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;3. 기벽&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;4. 버프 혹은 디버프&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="250" width="600" x="3140" y="-1260" as="geometry" />
+          <mxGeometry height="250" width="600" x="3890" y="-2010" as="geometry" />
         </mxCell>
         <mxCell id="6wxRee_0GMhof_xZqC6v-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;ItemInstance와 InventorySlot의 관계.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;ItemInstance 하나론 그 어떤 것도 이루어 낼 수 없음.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;ItemData의 값은 기본적으로 고정되어있음.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;==================================================&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Character의 기초 스탯과, 최종 스탯의 정의를 내리자...&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;기초스탯은 CharacterDataSO가 가지고있음.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;따라서 CharacterInstance는 최종스탯을 계산하여 적용시켜도 된다.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="250" width="600" x="3140" y="-980" as="geometry" />
+          <mxGeometry height="250" width="600" x="3890" y="-1753" as="geometry" />
         </mxCell>
         <mxCell id="6wxRee_0GMhof_xZqC6v-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;그럼 최종스탯 계산은 어디서 하는가?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterInstance? or CharacterDataManager?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;기본적인 흐름은&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterList&amp;lt;CharacterInstance&amp;gt;를 만들고,&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterSlot이 CharacterInstance를 담고...&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterUIManager가 CharacterSlot들을 관리한다.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;그럼 캐릭터의 스탯을 계산하는건 과연 누구여야하는가?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterInstance 자신&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;혹은&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterDataManager&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="440" width="600" x="4200" y="-1440" as="geometry" />
@@ -1156,67 +1156,67 @@
           <mxGeometry height="370" width="590" x="3160" y="-250" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-22" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="CharacterDataUIManager" vertex="1">
-          <mxGeometry height="476" width="440" x="2160" y="-1410" as="geometry">
+          <mxGeometry height="476" width="410" x="2160" y="-1410" as="geometry">
             <mxRectangle height="26" width="160" x="431" y="-1270" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-23" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+static CharacterDataUIManager Instance" vertex="1">
-          <mxGeometry height="26" width="440" y="26" as="geometry" />
+          <mxGeometry height="26" width="410" y="26" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-24" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+CharacterDataManager _characterDataManager" vertex="1">
-          <mxGeometry height="26" width="440" y="52" as="geometry" />
+          <mxGeometry height="26" width="410" y="52" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-25" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+GameObject slotPrefab" vertex="1">
-          <mxGeometry height="26" width="440" y="78" as="geometry" />
+          <mxGeometry height="26" width="410" y="78" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-26" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+Transform TownCharacterListTransform" vertex="1">
-          <mxGeometry height="26" width="440" y="104" as="geometry" />
+          <mxGeometry height="26" width="410" y="104" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-37" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+Transform PartyMemberListTransform" vertex="1">
-          <mxGeometry height="26" width="440" y="130" as="geometry" />
+          <mxGeometry height="26" width="410" y="130" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-38" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-CharacterSlotUI[] TownCharacterSlotUI" vertex="1">
-          <mxGeometry height="26" width="440" y="156" as="geometry" />
+          <mxGeometry height="26" width="410" y="156" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-39" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-CharacterSlotUI[] PartyMemberSlotUI" vertex="1">
-          <mxGeometry height="26" width="440" y="182" as="geometry" />
+          <mxGeometry height="26" width="410" y="182" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-40" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+CharacterSlot selectedCharacterSlot" vertex="1">
-          <mxGeometry height="26" width="440" y="208" as="geometry" />
+          <mxGeometry height="26" width="410" y="208" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-27" parent="jqb1lBJg9BFFVCb-VVlI-22" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="8" width="440" y="234" as="geometry" />
+          <mxGeometry height="8" width="410" y="234" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-28" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void Initialized()" vertex="1">
-          <mxGeometry height="26" width="440" y="242" as="geometry" />
+          <mxGeometry height="26" width="410" y="242" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-29" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetSelectedCharacterSlot(CharacterSlot slot)" vertex="1">
-          <mxGeometry height="26" width="440" y="268" as="geometry" />
+          <mxGeometry height="26" width="410" y="268" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-30" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void ShowCharacterDetails(CharacterInstance instance)" vertex="1">
-          <mxGeometry height="26" width="440" y="294" as="geometry" />
+          <mxGeometry height="26" width="410" y="294" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-31" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void RequestMoveOrSwap(CharacterSlot fromSlot, CharacterSlot toSlot)" vertex="1">
-          <mxGeometry height="26" width="440" y="320" as="geometry" />
+          <mxGeometry height="26" width="410" y="320" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-32" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-void RemoveDeuplicateInParty(int characterID)" vertex="1">
-          <mxGeometry height="26" width="440" y="346" as="geometry" />
+          <mxGeometry height="26" width="410" y="346" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-33" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-void SwapInstances(CharacterSlot a, CharacterSlot b)" vertex="1">
-          <mxGeometry height="26" width="440" y="372" as="geometry" />
+          <mxGeometry height="26" width="410" y="372" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-34" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-void HandleCrossListInteraction(CharacterSlot from, CharacterSlot to)" vertex="1">
-          <mxGeometry height="26" width="440" y="398" as="geometry" />
+          <mxGeometry height="26" width="410" y="398" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-35" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SyncPartyMemberIDSO()" vertex="1">
-          <mxGeometry height="26" width="440" y="424" as="geometry" />
+          <mxGeometry height="26" width="410" y="424" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-36" parent="jqb1lBJg9BFFVCb-VVlI-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-void CheckAndSyncPartySO(CharacterSlot a, CharacterSlot b)" vertex="1">
-          <mxGeometry height="26" width="440" y="450" as="geometry" />
+          <mxGeometry height="26" width="410" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="jqb1lBJg9BFFVCb-VVlI-41" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="CharacterSlotUI" vertex="1">
-          <mxGeometry height="476" width="440" x="2640" y="-1410" as="geometry">
-            <mxRectangle height="26" width="160" x="431" y="-1270" as="alternateBounds" />
+        <mxCell id="jqb1lBJg9BFFVCb-VVlI-41" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="CharacterSlotUI" vertex="1">
+          <mxGeometry height="26" width="160" x="3050" y="-1518" as="geometry">
+            <mxRectangle height="476" width="440" x="2640" y="-1410" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-42" parent="jqb1lBJg9BFFVCb-VVlI-41" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+CharacterSlot Slot" vertex="1">
@@ -1283,7 +1283,102 @@
           <mxGeometry height="370" width="690" x="-700" y="-840" as="geometry" />
         </mxCell>
         <mxCell id="TNDlyshEkmjnkjaREmwd-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 1, 1); font-size: 32px;&quot;&gt;현재 발견된 CharacterList 버그.&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;TownCharacterList내에서 Slot교환됨&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;( ^^이거 되면 안됨 ^^ )&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 1, 1);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="270" width="710" x="2140" y="-1590" as="geometry" />
+          <mxGeometry height="270" width="710" x="2140" y="-1730" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;UI상호작용에 대해서...&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;Event를 사용하기..?&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;OnInteractUI이벤트로,&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;해당 UI가 켜져있으면, 액티브 트루, 아니면 폴&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="270" width="710" x="2120" y="-2200" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="CharacterStatUI" vertex="1">
+          <mxGeometry height="736" width="490" x="2580" y="-1420" as="geometry">
+            <mxRectangle height="26" width="160" x="431" y="-1270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-6" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Transform CharacterSlotUITransform" vertex="1">
+          <mxGeometry height="26" width="490" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-27" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+TextMeshProUGUI _TextCharacterLV" vertex="1">
+          <mxGeometry height="26" width="490" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-26" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+TextMeshProUGUI _TextCharacterName" vertex="1">
+          <mxGeometry height="26" width="490" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-7" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextMaxHP" vertex="1">
+          <mxGeometry height="26" width="490" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-8" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextDMG" vertex="1">
+          <mxGeometry height="26" width="490" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-9" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextDODGE" vertex="1">
+          <mxGeometry height="26" width="490" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-10" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextPROT" vertex="1">
+          <mxGeometry height="26" width="490" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-11" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextACC_MOD" vertex="1">
+          <mxGeometry height="26" width="490" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-12" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextCRIT" vertex="1">
+          <mxGeometry height="26" width="490" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-28" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-CharacterSlotUI SlotUI" vertex="1">
+          <mxGeometry height="26" width="490" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-15" parent="TNDlyshEkmjnkjaREmwd-5" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="490" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-16" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void Initialized()" vertex="1">
+          <mxGeometry height="26" width="490" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-17" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void Bind()" vertex="1">
+          <mxGeometry height="26" width="490" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-18" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-void Unbind()" vertex="1">
+          <mxGeometry height="26" width="490" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-19" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-void OnDisable()" vertex="1">
+          <mxGeometry height="26" width="490" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-20" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-void OnDestroy()" vertex="1">
+          <mxGeometry height="26" width="490" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-21" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextCharacterLV(string index)" vertex="1">
+          <mxGeometry height="26" width="490" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-22" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextCharacterName(string index)" vertex="1">
+          <mxGeometry height="26" width="490" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-23" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextMaxHP(string index)" vertex="1">
+          <mxGeometry height="26" width="490" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-29" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextDMG(string index)" vertex="1">
+          <mxGeometry height="26" width="490" y="502" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-30" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextDODGE(string index)" vertex="1">
+          <mxGeometry height="26" width="490" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-31" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextPROT(string index)" vertex="1">
+          <mxGeometry height="26" width="490" y="554" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-32" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextACC_MOD(string index)" vertex="1">
+          <mxGeometry height="26" width="490" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-33" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextCRIT(string index)" vertex="1">
+          <mxGeometry height="26" width="490" y="606" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-34" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetStatTextBox(string charLV, charName, maxHP, dmg, dodge, prot, acc_mod, crit)" vertex="1">
+          <mxGeometry height="26" width="490" y="632" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-35" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void ClearStatUI()" vertex="1">
+          <mxGeometry height="26" width="490" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-36" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetStatUIWithInstance(CharacterInstance instance)" vertex="1">
+          <mxGeometry height="26" width="490" y="684" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-37" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void Refresh()" vertex="1">
+          <mxGeometry height="26" width="490" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-25" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="기본적 정의&lt;div&gt;Slot의 Instance( CharacterInstance ) 의 정보를 UI에 연결&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="360" x="2820" y="-1255" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
