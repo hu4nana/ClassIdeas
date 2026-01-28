@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Whale/4.35.351.16 Safari/537.36" version="29.3.4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3301" dy="3080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3964" dy="3530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1137,9 +1137,6 @@
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-19" parent="6wxRee_0GMhof_xZqC6v-130" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void RemoveFromParty(int characterID)" vertex="1">
           <mxGeometry height="26" width="370" y="346" as="geometry" />
         </mxCell>
-        <mxCell id="6wxRee_0GMhof_xZqC6v-140" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="TownCharacter, PartyMember&lt;div&gt;이후 대장간,&amp;nbsp; 능력 해금 등은 다른 CharacterList에서 선택된 CharacterSlot의 Instance를 받아오는 것으로 끝&lt;/div&gt;" vertex="1">
-          <mxGeometry height="250" width="600" x="1530" y="-1780" as="geometry" />
-        </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 1, 1); font-size: 32px;&quot;&gt;현재 발견된 Inventory 버그.&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 1, 1);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 1, 1);&quot;&gt;1. 동일 아이템의 꽉 찬 스택을 작은 스택으로 드래그 앤 드랍하면&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 1, 1);&quot;&gt;&amp;nbsp;인스턴스 교환( or AddStack일수도 )이 일어나지만,&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 1, 1);&quot;&gt;그 반대의 경우엔 아무런 변화도 일어나지 않음&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 1, 1);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 1, 1);&quot;&gt;_이유 : AddStack에서 이벤트 호출 되지 않았음.&lt;br&gt;다른 인벤토리는 Swap이 일어나는데 동일 인벤토리에는 Swap이 안됨&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="270" width="710" x="1160" y="-566" as="geometry" />
         </mxCell>
@@ -1156,7 +1153,7 @@
           <mxGeometry height="370" width="590" x="3160" y="-250" as="geometry" />
         </mxCell>
         <mxCell id="jqb1lBJg9BFFVCb-VVlI-22" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="CharacterDataUIManager" vertex="1">
-          <mxGeometry height="476" width="410" x="2160" y="-1410" as="geometry">
+          <mxGeometry height="476" width="410" x="2120" y="-1410" as="geometry">
             <mxRectangle height="26" width="160" x="431" y="-1270" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1274,105 +1271,117 @@
           <mxGeometry height="26" width="440" y="450" as="geometry" />
         </mxCell>
         <mxCell id="TNDlyshEkmjnkjaREmwd-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;무기, 방어구&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;패시브&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;카드덱&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;장착 장신구&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;카드덱_카드내용 확인해야함_어떤 카드가 해금되었는지 알기 쉬워야 함&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;패시브_ 어떤 패시브가 해금되었는지 알아야함.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;패시브의 세부사항은...?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="370" width="690" x="-60" y="-566" as="geometry" />
+          <mxGeometry height="370" width="690" x="-260" y="-536" as="geometry" />
         </mxCell>
         <mxCell id="TNDlyshEkmjnkjaREmwd-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;캐릭터 기본 스탯.....과 ( 상태이상 저향률도 포함해야할 수도 있어서, 여백 필요 )&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;아래의 것들....&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;정보량이 너무 많아서 태그를.............&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;닼던은 캐릭터의 특징(패시브를) 기본 스탯 분배와&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;스킬구성으로 잘 표현해냈음&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;( 즉 유저가 별도로 알아야 할 내용 적음 )&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;하지만 캐릭터의 특징을 살리기위해선&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;기본스탯의 차이와 더불어, 패시브, 스킬셋( 지금의 경우 카드 )&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;으로도 캐릭터의 성향, 혹은 개성을 나타낼 수 있으므로 중요함&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;그럼...무기, 방어구, 장신구들은 공통으로 장비하는 요소니까&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;기본스탯 표기에 몰아서 표시&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="370" width="690" x="-60" y="-920" as="geometry" />
+          <mxGeometry height="370" width="690" x="-260" y="-890" as="geometry" />
         </mxCell>
         <mxCell id="TNDlyshEkmjnkjaREmwd-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;각 캐릭터의 일지, 혹은 일기 느낌의 UI디자인도 괜찮을듯&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;b style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;왜냐?&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1._선택적으로 기억을 잃었으나.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;그걸 다시 찾으러가는 미련한 컨셉이기때문에&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;최대한 처절하고 구질구질한 느낌 살리는게&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;괜찮을지도?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;2._결국 원정대를 꾸려서 탐사를 지휘하는 사람이 있을 것이기때문에&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;지휘관_혹은 조사단장_혹은 원정대장&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;각 용병(혹은 조사원들, 원정단원들)의 상태를 확인하는 보고서?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;서류철? 그런느낌으로&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="370" width="690" x="-700" y="-840" as="geometry" />
+          <mxGeometry height="370" width="690" x="-900" y="-810" as="geometry" />
         </mxCell>
         <mxCell id="TNDlyshEkmjnkjaREmwd-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;UI상호작용에 대해서...&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;Event를 사용하기..?&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;OnInteractUI이벤트로,&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;해당 UI가 켜져있으면, 액티브 트루, 아니면 폴&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="270" width="710" x="2120" y="-2200" as="geometry" />
         </mxCell>
         <mxCell id="TNDlyshEkmjnkjaREmwd-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="CharacterStatUI" vertex="1">
-          <mxGeometry height="736" width="490" x="2580" y="-1420" as="geometry">
+          <mxGeometry height="814" width="490" x="2580" y="-1420" as="geometry">
             <mxRectangle height="26" width="160" x="431" y="-1270" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TNDlyshEkmjnkjaREmwd-6" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Transform CharacterSlotUITransform" vertex="1">
           <mxGeometry height="26" width="490" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-27" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+TextMeshProUGUI _TextCharacterLV" vertex="1">
+        <mxCell id="5V6LOi6dkcrj_3Z81BhI-0" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Transform TrniketEquipSlot0Transform" vertex="1">
           <mxGeometry height="26" width="490" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-26" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+TextMeshProUGUI _TextCharacterName" vertex="1">
+        <mxCell id="5V6LOi6dkcrj_3Z81BhI-1" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Transform TrniketEquipSlot1Transform" vertex="1">
           <mxGeometry height="26" width="490" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-7" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextMaxHP" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-27" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+TextMeshProUGUI _TextCharacterLV" vertex="1">
           <mxGeometry height="26" width="490" y="104" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-8" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextDMG" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-26" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+TextMeshProUGUI _TextCharacterName" vertex="1">
           <mxGeometry height="26" width="490" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-9" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextDODGE" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-7" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextMaxHP" vertex="1">
           <mxGeometry height="26" width="490" y="156" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-10" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextPROT" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-8" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextDMG" vertex="1">
           <mxGeometry height="26" width="490" y="182" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-11" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextACC_MOD" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-9" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextDODGE" vertex="1">
           <mxGeometry height="26" width="490" y="208" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-12" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextCRIT" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-10" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextPROT" vertex="1">
           <mxGeometry height="26" width="490" y="234" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-28" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-CharacterSlotUI SlotUI" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-11" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextACC_MOD" vertex="1">
           <mxGeometry height="26" width="490" y="260" as="geometry" />
         </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-12" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+TextMeshProUGUI _TextCRIT" vertex="1">
+          <mxGeometry height="26" width="490" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-28" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-CharacterSlotUI SlotUI" vertex="1">
+          <mxGeometry height="26" width="490" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="5V6LOi6dkcrj_3Z81BhI-2" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-InventorySlotUI[] TrinketSlotUI" vertex="1">
+          <mxGeometry height="26" width="490" y="338" as="geometry" />
+        </mxCell>
         <mxCell id="TNDlyshEkmjnkjaREmwd-15" parent="TNDlyshEkmjnkjaREmwd-5" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="8" width="490" y="286" as="geometry" />
+          <mxGeometry height="8" width="490" y="364" as="geometry" />
         </mxCell>
         <mxCell id="TNDlyshEkmjnkjaREmwd-16" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void Initialized()" vertex="1">
-          <mxGeometry height="26" width="490" y="294" as="geometry" />
-        </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-17" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void Bind()" vertex="1">
-          <mxGeometry height="26" width="490" y="320" as="geometry" />
-        </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-18" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-void Unbind()" vertex="1">
-          <mxGeometry height="26" width="490" y="346" as="geometry" />
-        </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-19" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-void OnDisable()" vertex="1">
           <mxGeometry height="26" width="490" y="372" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-20" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-void OnDestroy()" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-17" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void Bind()" vertex="1">
           <mxGeometry height="26" width="490" y="398" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-21" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextCharacterLV(string index)" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-18" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-void Unbind()" vertex="1">
           <mxGeometry height="26" width="490" y="424" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-22" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextCharacterName(string index)" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-19" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-void OnDisable()" vertex="1">
           <mxGeometry height="26" width="490" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-23" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextMaxHP(string index)" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-20" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="-void OnDestroy()" vertex="1">
           <mxGeometry height="26" width="490" y="476" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-29" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextDMG(string index)" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-21" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextCharacterLV(string index)" vertex="1">
           <mxGeometry height="26" width="490" y="502" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-30" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextDODGE(string index)" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-22" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextCharacterName(string index)" vertex="1">
           <mxGeometry height="26" width="490" y="528" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-31" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextPROT(string index)" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-23" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextMaxHP(string index)" vertex="1">
           <mxGeometry height="26" width="490" y="554" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-32" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextACC_MOD(string index)" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-29" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextDMG(string index)" vertex="1">
           <mxGeometry height="26" width="490" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-33" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextCRIT(string index)" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-30" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextDODGE(string index)" vertex="1">
           <mxGeometry height="26" width="490" y="606" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-34" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetStatTextBox(string charLV, charName, maxHP, dmg, dodge, prot, acc_mod, crit)" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-31" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextPROT(string index)" vertex="1">
           <mxGeometry height="26" width="490" y="632" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-35" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void ClearStatUI()" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-32" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextACC_MOD(string index)" vertex="1">
           <mxGeometry height="26" width="490" y="658" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-36" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetStatUIWithInstance(CharacterInstance instance)" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-33" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetTextCRIT(string index)" vertex="1">
           <mxGeometry height="26" width="490" y="684" as="geometry" />
         </mxCell>
-        <mxCell id="TNDlyshEkmjnkjaREmwd-37" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void Refresh()" vertex="1">
+        <mxCell id="TNDlyshEkmjnkjaREmwd-34" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetStatTextBox(string charLV, charName, maxHP, dmg, dodge, prot, acc_mod, crit)" vertex="1">
           <mxGeometry height="26" width="490" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-35" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void ClearStatUI()" vertex="1">
+          <mxGeometry height="26" width="490" y="736" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-36" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetStatUIWithInstance(CharacterInstance instance)" vertex="1">
+          <mxGeometry height="26" width="490" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="TNDlyshEkmjnkjaREmwd-37" parent="TNDlyshEkmjnkjaREmwd-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void Refresh()" vertex="1">
+          <mxGeometry height="26" width="490" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="5V6LOi6dkcrj_3Z81BhI-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;장신구를 장착 및 해제할 때엔 InventorySlotUI를 사용함...&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterStatUI의 InventorySlot는 Owner가 없는 상태&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;그럼 다른 InventorySlot의 경우는 어떨까&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;TownInventorySlot은 Owner가 TownInventory&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;PartyInventorySlot은 Owner가 PartyInventorySlot&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;마을의 장신구 상점이랑 원정준비 상점을 만든다면 아마&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;해당 UI Monobehaviour가 각자 Inventory를 가질 예정&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;따라서...? InventorySlot의 Owner가 null인 경우는&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CharacterStatUI 뿐이다라는 결론&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="370" width="590" x="1120" y="-1100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
