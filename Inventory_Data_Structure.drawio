@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Whale/4.35.351.16 Safari/537.36" version="29.3.6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4788" dy="3678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3117" dy="2861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -613,8 +613,8 @@
             <mxPoint x="2250" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QrLQ1HB0-cAcU2no1IPm-24" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" value="마우스 좌클릭 = Item이 있을 시 정보 노출&lt;div&gt;마우스 우클릭 = 현재 상황에 맞게 상호작용 ( 구매, 판매, 장착, 해제 )&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="669.5" x="360" y="414.5" as="geometry" />
+        <mxCell id="QrLQ1HB0-cAcU2no1IPm-24" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" value="마우스 좌클릭 = Item이 있을 시 정보 노출&lt;div&gt;마우스 우클릭 = 현재 상황에 맞게 상호작용 ( 구매, 판매, 장착, 해제 )&lt;/div&gt;&lt;div&gt;이제 생각해보니 아이템의 구매가격, 판매가격도 책정되어있어야한다.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="185.5" width="669.5" x="360" y="414.5" as="geometry" />
         </mxCell>
         <mxCell id="QrLQ1HB0-cAcU2no1IPm-27" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" value="마을씬" vertex="1">
           <mxGeometry height="125" width="210" x="520" y="1320" as="geometry" />
@@ -974,9 +974,6 @@
         </mxCell>
         <mxCell id="N2uIkFi1DNT5PRXYkEVB-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;InventoryManager에서의 데이터 값 교환이 이루어짐&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;1. InventorySlot에서 이벤트 발생&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;2. 구독된 이벤트 작동 _ SlotUI의 Bind() 실행&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;3. 위치 UI에 반영&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;그...런데 UI에서 위치를 바꾸는 건데. 인덱스는 어떻게 아는가?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="250" width="600" x="150" y="610" as="geometry" />
-        </mxCell>
-        <mxCell id="N2uIkFi1DNT5PRXYkEVB-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;예시_Inventory[0]에서 Inventory[6]으로 드래그 앤 드랍&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;InventorySlotUI가 BeginDrag, OnDrop등을 호출하여 상호작용&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;OnDrop에서 해당 기능을 수행해야함&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;case 1. Drop된 eventData의 Slot 참조하고 Bind하고 끝.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;case 2. BeginDrag? OnClick이 된 Slot에 전달 후, 참조하기&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;예시_Inventory[0]에서 인벤창 밖으로 드래그 앤 드랍&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;만약 드랍된 곳이 Slot이 아니라면 해당 상황 취소&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="250" width="660" x="-330" y="919" as="geometry" />
         </mxCell>
         <mxCell id="N2uIkFi1DNT5PRXYkEVB-6" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;SlotUI가 입력을&amp;nbsp; UIManager에게 신호를 보냄&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;UIManager가 신호를 받아서 어디에서 어디로 이동이 발생했는지 정리.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;InventoryManager의 함수를 가져와서 처리.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="600" x="1054" y="55" as="geometry" />
@@ -1409,6 +1406,15 @@
         </mxCell>
         <mxCell id="oRCTQJRvXPeFcMy6ts-E-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;강화재화 종류 4가지 중 2가지 소모&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;그 소모량도 일정량 증가&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;그렇다면 각 건물의 강화 단계별 재화소모를 Struct로 구현하여&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;TownManager는 명령만 내리고&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;각 건물이 실제 연산을 처리한다...?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="370" width="590" x="3450" y="1754" as="geometry" />
+        </mxCell>
+        <mxCell id="oRCTQJRvXPeFcMy6ts-E-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;무기 LV 1 ~ 5, 방어구 LV 1 ~ 5&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;캐릭터 LV 0 ~ 6&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;0, 1, 2, 3, 4, 5, 6&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;1, 2, 3, 4, 5&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;캐릭터 LV, 건물 업그레이드 LV이 최댓값&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;또 CharWeaponLV, CharArmorLV은 CharLV에 영향받음&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;if CharWeaponLV, CharArmorLV,&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;1,2,3,4,5&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;0,1,2,3&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="370" width="590" x="2480" y="1771.62" as="geometry" />
+        </mxCell>
+        <mxCell id="oRCTQJRvXPeFcMy6ts-E-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;그럼 TownManager가....다른 건물들에서의 매매를 관리...?&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;int&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="370" width="590" x="4080" y="2060" as="geometry" />
+        </mxCell>
+        <mxCell id="oRCTQJRvXPeFcMy6ts-E-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;코드 전체적으로 다시 한 번 읽어보고&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Building 구조 다시 한 번 생각해보기&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="600" x="760" y="621" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
