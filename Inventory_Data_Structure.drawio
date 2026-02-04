@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Whale/4.35.351.16 Safari/537.36" version="29.3.7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3799" dy="3104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3404" dy="4043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1251,7 +1251,7 @@
           <mxGeometry height="370" width="690" x="-900" y="-810" as="geometry" />
         </mxCell>
         <mxCell id="TNDlyshEkmjnkjaREmwd-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;UI상호작용에 대해서...&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;Event를 사용하기..?&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;OnInteractUI이벤트로,&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0101&quot;&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;해당 UI가 켜져있으면, 액티브 트루, 아니면 폴&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="270" width="710" x="2120" y="-2200" as="geometry" />
+          <mxGeometry height="270" width="710" x="2160" y="-2780" as="geometry" />
         </mxCell>
         <mxCell id="TNDlyshEkmjnkjaREmwd-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="CharacterStatUI" vertex="1">
           <mxGeometry height="814" width="490" x="2580" y="-1420" as="geometry">
@@ -1384,8 +1384,169 @@
         <mxCell id="fMi-ghzT5s0DGQbiD_sY-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;UpgradeButton 동적생성 필수...&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;UpgradeButton을 누르면 바뀔 데이터들&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;UpgradeHandler&amp;lt;T&amp;gt;의 LV&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;해당 UI의 최신화&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;레벨업 메서드는 Button의 OnClick으로 트리거할 예정&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;그럼 거기에 Refresh나 뭐 그런걸 하면 될 듯?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="370" width="590" x="1920" y="1920" as="geometry" />
         </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;방안&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;1. UpgradeHandler에서 동적 생성 관리&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;_모든 업그레이드에 Button이 필요함&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;따라서 이론적으론 동적 생성관리가 깔끔함&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;2. UI측에 미리 다 생성 후 참조하기&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;결국 UI 디자인을 생각해야함.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;그리고 미리 생성 후 참조의 경우&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;배치 수정에도 유리함&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;방안&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;1. UpgradeHandler에서 동적 생성 관리&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;_모든 업그레이드에 Button이 필요함&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;따라서 이론적으론 동적 생성관리가 깔끔함&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;2. UI측에 미리 다 생성 후 참조하기&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;결국 UI 디자인을 생각해야함.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;그리고 미리 생성 후 참조의 경우&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;배치 수정에도 유리함&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;UI상 임시 이미지로 Transform만 잡아놓고&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;이후엔 해당 Transform을 기준으로 동적생성...?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="370" width="590" x="2460" y="2080" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;130, 20&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;60, 0&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="370" width="590" x="1800" y="2250" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="InformationUI" vertex="1">
+          <mxGeometry height="320" width="300" x="1950" y="-2200" as="geometry">
+            <mxRectangle height="26" width="160" x="431" y="-1270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-6" parent="fMi-ghzT5s0DGQbiD_sY-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+GameObject informationContainer" vertex="1">
+          <mxGeometry height="26" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-7" parent="fMi-ghzT5s0DGQbiD_sY-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+TextMeshProUGUI informationTextBox" vertex="1">
+          <mxGeometry height="26" width="300" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-8" parent="fMi-ghzT5s0DGQbiD_sY-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+static InformationUI Instance" vertex="1">
+          <mxGeometry height="26" width="300" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-9" parent="fMi-ghzT5s0DGQbiD_sY-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-RectTransform inforWindow" vertex="1">
+          <mxGeometry height="26" width="300" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-10" parent="fMi-ghzT5s0DGQbiD_sY-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-RectTransform canvasRect" vertex="1">
+          <mxGeometry height="26" width="300" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-19" parent="fMi-ghzT5s0DGQbiD_sY-5" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="300" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-20" parent="fMi-ghzT5s0DGQbiD_sY-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void Initialized()" vertex="1">
+          <mxGeometry height="26" width="300" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-21" parent="fMi-ghzT5s0DGQbiD_sY-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void ShowInformationBox(RectTransform, string)" vertex="1">
+          <mxGeometry height="26" width="300" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-22" parent="fMi-ghzT5s0DGQbiD_sY-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void HideInformationBox()" vertex="1">
+          <mxGeometry height="26" width="300" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-23" parent="fMi-ghzT5s0DGQbiD_sY-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetActivateInformationBox(bool)" vertex="1">
+          <mxGeometry height="26" width="300" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-24" parent="fMi-ghzT5s0DGQbiD_sY-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetInformationText(string)" vertex="1">
+          <mxGeometry height="26" width="300" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-25" parent="fMi-ghzT5s0DGQbiD_sY-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetInformationContainerPosition(RectTransform)" vertex="1">
+          <mxGeometry height="26" width="300" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-37" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="TownProperty" vertex="1">
+          <mxGeometry height="372" width="190" x="1450" y="-2200" as="geometry">
+            <mxRectangle height="26" width="160" x="431" y="-1270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-38" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Image index1Icon" vertex="1">
+          <mxGeometry height="26" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-39" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int index1" vertex="1">
+          <mxGeometry height="26" width="190" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-40" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Image index2Icon" vertex="1">
+          <mxGeometry height="26" width="190" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-41" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int index2" vertex="1">
+          <mxGeometry height="26" width="190" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-42" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Image index3Icon" vertex="1">
+          <mxGeometry height="26" width="190" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-51" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int index3" vertex="1">
+          <mxGeometry height="26" width="190" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-52" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Image index4Icon" vertex="1">
+          <mxGeometry height="26" width="190" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-50" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int index4" vertex="1">
+          <mxGeometry height="26" width="190" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-53" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+Image goldIcon" vertex="1">
+          <mxGeometry height="26" width="190" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-54" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+int gold" vertex="1">
+          <mxGeometry height="26" width="190" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-43" parent="fMi-ghzT5s0DGQbiD_sY-37" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="190" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-44" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+bool Minus(TownProperty, int)" vertex="1">
+          <mxGeometry height="26" width="190" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-45" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+bool Minus(TownProperty)" vertex="1">
+          <mxGeometry height="26" width="190" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-46" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+bool Minus(int)" vertex="1">
+          <mxGeometry height="26" width="190" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-55" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="UpgradeHandler&lt;T&gt;" vertex="1">
+          <mxGeometry height="268" width="250" x="1404" y="-2620" as="geometry">
+            <mxRectangle height="26" width="160" x="431" y="-1270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-56" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+string Name" vertex="1">
+          <mxGeometry height="26" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-57" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int CurrentLV" vertex="1">
+          <mxGeometry height="26" width="250" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-58" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-int currentLV" vertex="1">
+          <mxGeometry height="26" width="250" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-59" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+List&lt;T&gt; costTable" vertex="1">
+          <mxGeometry height="26" width="250" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-60" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+event Action OnLVChanged" vertex="1">
+          <mxGeometry height="26" width="250" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-66" parent="fMi-ghzT5s0DGQbiD_sY-55" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="250" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-61" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+T GetNextUpgradeCost()" vertex="1">
+          <mxGeometry height="26" width="250" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-62" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+List&lt;UpgradeButtonUI&gt; UpgradButtonUIs" vertex="1">
+          <mxGeometry height="26" width="250" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-67" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+UpgradeHandler(GameObject, Transform)" vertex="1">
+          <mxGeometry height="26" width="250" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-68" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void Upgrade()" vertex="1">
+          <mxGeometry height="26" width="250" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-70" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="BlackSmith" vertex="1">
+          <mxGeometry height="372" width="350" x="1730" y="-2610" as="geometry">
+            <mxRectangle height="26" width="160" x="431" y="-1270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-71" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int[] baseEquipmentUpgradeCost" vertex="1">
+          <mxGeometry height="26" width="350" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-72" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+UpgradeHandler&lt;TownProperty&gt; weaponModule" vertex="1">
+          <mxGeometry height="26" width="350" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-81" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+UpgradeHandler&lt;TownProperty&gt; armorModule" vertex="1">
+          <mxGeometry height="26" width="350" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-82" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+UpgradeHandler&lt;TownProperty&gt; saleModule" vertex="1">
+          <mxGeometry height="26" width="350" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-83" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+UpgradeHandler&lt;int&gt; slotInstanceWeapon" vertex="1">
+          <mxGeometry height="26" width="350" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-84" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+UpgradeHandler&lt;int&gt; slotInstanceArmor" vertex="1">
+          <mxGeometry height="26" width="350" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-73" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+float SaleMultiplier" vertex="1">
+          <mxGeometry height="26" width="350" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-76" parent="fMi-ghzT5s0DGQbiD_sY-70" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="350" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-77" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int GetFinalEquipmentCost(int)" vertex="1">
+          <mxGeometry height="26" width="350" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-78" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void Initialize(Action)" vertex="1">
+          <mxGeometry height="26" width="350" y="242" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
