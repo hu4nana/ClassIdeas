@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Whale/4.35.351.16 Safari/537.36" version="29.3.7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3404" dy="4043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3865" dy="4311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1431,122 +1431,134 @@
         <mxCell id="fMi-ghzT5s0DGQbiD_sY-25" parent="fMi-ghzT5s0DGQbiD_sY-5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void SetInformationContainerPosition(RectTransform)" vertex="1">
           <mxGeometry height="26" width="300" y="294" as="geometry" />
         </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-37" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="TownProperty" vertex="1">
-          <mxGeometry height="372" width="190" x="1450" y="-2200" as="geometry">
-            <mxRectangle height="26" width="160" x="431" y="-1270" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-38" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Image index1Icon" vertex="1">
-          <mxGeometry height="26" width="190" y="26" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-39" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int index1" vertex="1">
-          <mxGeometry height="26" width="190" y="52" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-40" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Image index2Icon" vertex="1">
-          <mxGeometry height="26" width="190" y="78" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-41" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int index2" vertex="1">
-          <mxGeometry height="26" width="190" y="104" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-42" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Image index3Icon" vertex="1">
-          <mxGeometry height="26" width="190" y="130" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-51" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int index3" vertex="1">
-          <mxGeometry height="26" width="190" y="156" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-52" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Image index4Icon" vertex="1">
-          <mxGeometry height="26" width="190" y="182" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-50" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int index4" vertex="1">
-          <mxGeometry height="26" width="190" y="208" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-53" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+Image goldIcon" vertex="1">
-          <mxGeometry height="26" width="190" y="234" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-54" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+int gold" vertex="1">
-          <mxGeometry height="26" width="190" y="260" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-43" parent="fMi-ghzT5s0DGQbiD_sY-37" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="8" width="190" y="286" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-44" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+bool Minus(TownProperty, int)" vertex="1">
-          <mxGeometry height="26" width="190" y="294" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-45" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+bool Minus(TownProperty)" vertex="1">
-          <mxGeometry height="26" width="190" y="320" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-46" parent="fMi-ghzT5s0DGQbiD_sY-37" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+bool Minus(int)" vertex="1">
-          <mxGeometry height="26" width="190" y="346" as="geometry" />
-        </mxCell>
         <mxCell id="fMi-ghzT5s0DGQbiD_sY-55" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="UpgradeHandler&lt;T&gt;" vertex="1">
-          <mxGeometry height="268" width="250" x="1404" y="-2620" as="geometry">
+          <mxGeometry height="346" width="330" x="1370" y="-2606" as="geometry">
             <mxRectangle height="26" width="160" x="431" y="-1270" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fMi-ghzT5s0DGQbiD_sY-56" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+string Name" vertex="1">
-          <mxGeometry height="26" width="250" y="26" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-57" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int CurrentLV" vertex="1">
-          <mxGeometry height="26" width="250" y="52" as="geometry" />
+          <mxGeometry height="26" width="330" y="26" as="geometry" />
         </mxCell>
         <mxCell id="fMi-ghzT5s0DGQbiD_sY-58" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-int currentLV" vertex="1">
-          <mxGeometry height="26" width="250" y="78" as="geometry" />
+          <mxGeometry height="26" width="330" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-57" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int CurrentLV" vertex="1">
+          <mxGeometry height="26" width="330" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="B_rzYGxGZIla2VcSmw49-20" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-int maxLV" vertex="1">
+          <mxGeometry height="26" width="330" y="104" as="geometry" />
         </mxCell>
         <mxCell id="fMi-ghzT5s0DGQbiD_sY-59" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+List&lt;T&gt; costTable" vertex="1">
-          <mxGeometry height="26" width="250" y="104" as="geometry" />
+          <mxGeometry height="26" width="330" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="B_rzYGxGZIla2VcSmw49-21" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+List&lt;UpgradeButtonUI&gt; UpgradeButtonUIs" vertex="1">
+          <mxGeometry height="26" width="330" y="156" as="geometry" />
         </mxCell>
         <mxCell id="fMi-ghzT5s0DGQbiD_sY-60" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+event Action OnLVChanged" vertex="1">
-          <mxGeometry height="26" width="250" y="130" as="geometry" />
+          <mxGeometry height="26" width="330" y="182" as="geometry" />
         </mxCell>
         <mxCell id="fMi-ghzT5s0DGQbiD_sY-66" parent="fMi-ghzT5s0DGQbiD_sY-55" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="8" width="250" y="156" as="geometry" />
+          <mxGeometry height="8" width="330" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-67" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+UpgradeHandler(GameObject, Transform, bool)" vertex="1">
+          <mxGeometry height="26" width="330" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="B_rzYGxGZIla2VcSmw49-23" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+UpgradeHandler(GameObject, Transform,List&lt;T&gt;, bool)" vertex="1">
+          <mxGeometry height="26" width="330" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-68" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void UpdateButtonState()" vertex="1">
+          <mxGeometry height="26" width="330" y="268" as="geometry" />
         </mxCell>
         <mxCell id="fMi-ghzT5s0DGQbiD_sY-61" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+T GetNextUpgradeCost()" vertex="1">
-          <mxGeometry height="26" width="250" y="164" as="geometry" />
+          <mxGeometry height="26" width="330" y="294" as="geometry" />
         </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-62" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+List&lt;UpgradeButtonUI&gt; UpgradButtonUIs" vertex="1">
-          <mxGeometry height="26" width="250" y="190" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-67" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+UpgradeHandler(GameObject, Transform)" vertex="1">
-          <mxGeometry height="26" width="250" y="216" as="geometry" />
-        </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-68" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void Upgrade()" vertex="1">
-          <mxGeometry height="26" width="250" y="242" as="geometry" />
+        <mxCell id="B_rzYGxGZIla2VcSmw49-22" parent="fMi-ghzT5s0DGQbiD_sY-55" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="+void Upgrade()" vertex="1">
+          <mxGeometry height="26" width="330" y="320" as="geometry" />
         </mxCell>
         <mxCell id="fMi-ghzT5s0DGQbiD_sY-70" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="BlackSmith" vertex="1">
-          <mxGeometry height="372" width="350" x="1730" y="-2610" as="geometry">
+          <mxGeometry height="502" width="350" x="1730" y="-2760" as="geometry">
             <mxRectangle height="26" width="160" x="431" y="-1270" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fMi-ghzT5s0DGQbiD_sY-71" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int[] baseEquipmentUpgradeCost" vertex="1">
           <mxGeometry height="26" width="350" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-72" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+UpgradeHandler&lt;TownProperty&gt; weaponModule" vertex="1">
+        <mxCell id="B_rzYGxGZIla2VcSmw49-24" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ResourceType cost1Type" vertex="1">
           <mxGeometry height="26" width="350" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-81" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+UpgradeHandler&lt;TownProperty&gt; armorModule" vertex="1">
+        <mxCell id="B_rzYGxGZIla2VcSmw49-25" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ResourceType cost2Type" vertex="1">
           <mxGeometry height="26" width="350" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-82" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+UpgradeHandler&lt;TownProperty&gt; saleModule" vertex="1">
+        <mxCell id="B_rzYGxGZIla2VcSmw49-26" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int[] equipModuleCost1" vertex="1">
           <mxGeometry height="26" width="350" y="104" as="geometry" />
         </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-83" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+UpgradeHandler&lt;int&gt; slotInstanceWeapon" vertex="1">
+        <mxCell id="B_rzYGxGZIla2VcSmw49-27" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int[] equipModuleCost2" vertex="1">
           <mxGeometry height="26" width="350" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-84" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+UpgradeHandler&lt;int&gt; slotInstanceArmor" vertex="1">
+        <mxCell id="B_rzYGxGZIla2VcSmw49-28" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int[] saleModuleCost1" vertex="1">
           <mxGeometry height="26" width="350" y="156" as="geometry" />
         </mxCell>
-        <mxCell id="fMi-ghzT5s0DGQbiD_sY-73" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+float SaleMultiplier" vertex="1">
+        <mxCell id="B_rzYGxGZIla2VcSmw49-29" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int[] saleModuleCost2" vertex="1">
           <mxGeometry height="26" width="350" y="182" as="geometry" />
         </mxCell>
+        <mxCell id="B_rzYGxGZIla2VcSmw49-30" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+float discountPerLevel" vertex="1">
+          <mxGeometry height="26" width="350" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-72" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+UpgradeHandler&lt;TownProperty&gt; weaponModule" vertex="1">
+          <mxGeometry height="26" width="350" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-81" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+UpgradeHandler&lt;TownProperty&gt; armorModule" vertex="1">
+          <mxGeometry height="26" width="350" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-82" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+UpgradeHandler&lt;TownProperty&gt; saleModule" vertex="1">
+          <mxGeometry height="26" width="350" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-83" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+UpgradeHandler&lt;int&gt; slotInstanceWeapon" vertex="1">
+          <mxGeometry height="26" width="350" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-84" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+UpgradeHandler&lt;int&gt; slotInstanceArmor" vertex="1">
+          <mxGeometry height="26" width="350" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="fMi-ghzT5s0DGQbiD_sY-73" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+float SaleMultiplier" vertex="1">
+          <mxGeometry height="26" width="350" y="364" as="geometry" />
+        </mxCell>
         <mxCell id="fMi-ghzT5s0DGQbiD_sY-76" parent="fMi-ghzT5s0DGQbiD_sY-70" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="8" width="350" y="208" as="geometry" />
+          <mxGeometry height="8" width="350" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="B_rzYGxGZIla2VcSmw49-31" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+List&lt;Dictionary&lt;ResourceType,int&gt;&gt; SetCostTable(int[], int[])" vertex="1">
+          <mxGeometry height="26" width="350" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="B_rzYGxGZIla2VcSmw49-32" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+List&lt;int&gt; SetCostTable(int[])" vertex="1">
+          <mxGeometry height="26" width="350" y="424" as="geometry" />
         </mxCell>
         <mxCell id="fMi-ghzT5s0DGQbiD_sY-77" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+int GetFinalEquipmentCost(int)" vertex="1">
-          <mxGeometry height="26" width="350" y="216" as="geometry" />
+          <mxGeometry height="26" width="350" y="450" as="geometry" />
         </mxCell>
         <mxCell id="fMi-ghzT5s0DGQbiD_sY-78" parent="fMi-ghzT5s0DGQbiD_sY-70" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+void Initialize(Action)" vertex="1">
-          <mxGeometry height="26" width="350" y="242" as="geometry" />
+          <mxGeometry height="26" width="350" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="B_rzYGxGZIla2VcSmw49-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" value="BlackSmithUI가 BlackSmith를 생성하고&lt;div&gt;TownerManager의 재화를 가져다쓴다&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="480" x="-840" y="-1890" as="geometry" />
+        </mxCell>
+        <mxCell id="B_rzYGxGZIla2VcSmw49-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="ResourceType" vertex="1">
+          <mxGeometry height="156" width="120" x="1190" y="-2620" as="geometry">
+            <mxRectangle height="26" width="160" x="431" y="-1270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_rzYGxGZIla2VcSmw49-2" parent="B_rzYGxGZIla2VcSmw49-1" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Gold" vertex="1">
+          <mxGeometry height="26" width="120" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B_rzYGxGZIla2VcSmw49-16" parent="B_rzYGxGZIla2VcSmw49-1" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Index1" vertex="1">
+          <mxGeometry height="26" width="120" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="B_rzYGxGZIla2VcSmw49-17" parent="B_rzYGxGZIla2VcSmw49-1" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Index2" vertex="1">
+          <mxGeometry height="26" width="120" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="B_rzYGxGZIla2VcSmw49-18" parent="B_rzYGxGZIla2VcSmw49-1" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Index3" vertex="1">
+          <mxGeometry height="26" width="120" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="B_rzYGxGZIla2VcSmw49-19" parent="B_rzYGxGZIla2VcSmw49-1" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Index4" vertex="1">
+          <mxGeometry height="26" width="120" y="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
