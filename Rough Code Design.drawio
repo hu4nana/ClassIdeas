@@ -88,6 +88,18 @@
         <mxCell id="4_Xj1-EcXCLe2nyQ2lie-1" parent="4_Xj1-EcXCLe2nyQ2lie-28" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" value="전체 게임 흐름" vertex="1">
           <mxGeometry height="60" width="180" x="175" as="geometry" />
         </mxCell>
+        <mxCell id="F2faLWHTfw6g7WQATHCO-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="780" width="1060" x="-710" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="F2faLWHTfw6g7WQATHCO-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" value="전투 흐름" vertex="1">
+          <mxGeometry height="60" width="180" x="-425" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="F2faLWHTfw6g7WQATHCO-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Character 속도별로&lt;div&gt;Wave&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="-510" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="F2faLWHTfw6g7WQATHCO-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CharacterData 수집" vertex="1">
+          <mxGeometry height="60" width="130" x="-690" y="710" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
