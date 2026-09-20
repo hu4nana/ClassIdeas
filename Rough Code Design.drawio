@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="페이지-1" id="9ygx_rfGYWULVaEgP7LY">
-    <mxGraphModel dx="1398" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1499" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,11 +94,17 @@
         <mxCell id="F2faLWHTfw6g7WQATHCO-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" value="전투 흐름" vertex="1">
           <mxGeometry height="60" width="180" x="-425" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="F2faLWHTfw6g7WQATHCO-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Character 속도별로&lt;div&gt;Wave&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="130" x="-510" y="720" as="geometry" />
+        <mxCell id="F2faLWHTfw6g7WQATHCO-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Character 속도순으로&lt;div&gt;행동서열&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="148" x="-518" y="710" as="geometry" />
         </mxCell>
         <mxCell id="F2faLWHTfw6g7WQATHCO-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CharacterData 수집" vertex="1">
           <mxGeometry height="60" width="130" x="-690" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="F2faLWHTfw6g7WQATHCO-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="유저의 Character 차례,&lt;div&gt;이동 및 공격 명령 가능&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="148" x="-328" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="F2faLWHTfw6g7WQATHCO-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="적의 Character 차례,&lt;div&gt;이동 및 공격&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="148" x="-328" y="810" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
