@@ -79,7 +79,7 @@
         <mxCell id="4_Xj1-EcXCLe2nyQ2lie-10" parent="4_Xj1-EcXCLe2nyQ2lie-27" style="rounded=0;whiteSpace=wrap;html=1;" value="ESC" vertex="1">
           <mxGeometry height="40" width="80" x="420" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="4_Xj1-EcXCLe2nyQ2lie-11" parent="4_Xj1-EcXCLe2nyQ2lie-27" style="rounded=0;whiteSpace=wrap;html=1;" value="__설정 UI__&lt;div&gt;사운드, 그래픽,&amp;nbsp; 해상도, 언어&lt;/div&gt;" vertex="1">
+        <mxCell id="4_Xj1-EcXCLe2nyQ2lie-11" parent="4_Xj1-EcXCLe2nyQ2lie-27" style="rounded=0;whiteSpace=wrap;html=1;" value="설정&lt;div&gt;(사운드, 그래픽,&amp;nbsp; 해상도, 언어)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="165" x="140" y="175" as="geometry" />
         </mxCell>
         <mxCell id="4_Xj1-EcXCLe2nyQ2lie-12" parent="4_Xj1-EcXCLe2nyQ2lie-27" style="rounded=0;whiteSpace=wrap;html=1;" value="게임 종료" vertex="1">
@@ -199,6 +199,12 @@
         </mxCell>
         <mxCell id="mQmYPY6PGXKH-jjzO074-33" parent="mQmYPY6PGXKH-jjzO074-36" style="rounded=0;whiteSpace=wrap;html=1;" value="GameManager에 따른&lt;div&gt;진행&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="130" x="520" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="mQmYPY6PGXKH-jjzO074-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="GameManager" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mQmYPY6PGXKH-jjzO074-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
